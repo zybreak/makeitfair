@@ -1,0 +1,157 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="worker" itemID="4d8cc099-00000a4e" sourceLibraryItemHRef="Symbol 1" lastModified="1301074285" lastUniqueIdentifier="12">
+  <timeline>
+    <DOMTimeline name="worker">
+      <layers>
+        <DOMLayer name="animation" color="#FF800A" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="hand_left" name="" selected="true">
+                  <matrix>
+                    <Matrix tx="-40.55" ty="-5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="16" y="16"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="hand_right" name="" selected="true">
+                  <matrix>
+                    <Matrix tx="35.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-16" y="16"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="4" duration="5" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="hand_left" name="" selected="true">
+                  <matrix>
+                    <Matrix tx="-45.55" ty="2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="16" y="16"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="hand_right" name="" selected="true">
+                  <matrix>
+                    <Matrix tx="41.45" ty="-4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-16" y="16"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="9" duration="5" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="hand_left" name="" selected="true">
+                  <matrix>
+                    <Matrix tx="-38.55" ty="11"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="16" y="16"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="hand_right" name="" selected="true">
+                  <matrix>
+                    <Matrix tx="32.45" ty="-4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-16" y="16"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="14" duration="5" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="hand_left" name="" selected="true">
+                  <matrix>
+                    <Matrix tx="-27.55" ty="1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="16" y="16"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="hand_right" name="" selected="true">
+                  <matrix>
+                    <Matrix tx="32.45" ty="8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-16" y="16"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="19" duration="6" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="hand_left" name="">
+                  <matrix>
+                    <Matrix tx="-38.55" ty="-7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="16" y="16"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="hand_right" name="">
+                  <matrix>
+                    <Matrix tx="48.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-16" y="16"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="hardware" color="#4F80FF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="25" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance name="" referenceID="" libraryItemName="hardware.png">
+                  <matrix>
+                    <Matrix tx="-36" ty="-4"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="chair" color="#FF4FFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="25" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="chair" name="">
+                  <matrix>
+                    <Matrix tx="-0.5" ty="46"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="office_girl" color="#4FFFFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="25" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="office_girl" name="">
+                  <matrix>
+                    <Matrix tx="0.5" ty="-46"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
