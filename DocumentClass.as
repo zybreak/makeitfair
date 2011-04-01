@@ -9,9 +9,7 @@
 		}
 		
 		public function gotoFactory() {
-			trace(this.scenes);
 			gotoAndPlay('start', 'Factory');
-			trace(this.name);
 		}
 	}
 	
