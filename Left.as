@@ -1,0 +1,1 @@
+﻿package  {		import flash.display.MovieClip;			public class Left extends MovieClip {						public function Left() {			// constructor code		}	}	}

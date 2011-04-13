@@ -1,5 +1,4 @@
-<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#002E45" currentTimeline="1" xflVersion="2.0" creatorInfo="Adobe Flash Professional CS5" platform="Macintosh" versionInfo="Saved by Adobe Flash Macintosh 11.0 build 485" majorVersion="11" buildNumber="485" gridSnapTo="true" previewMode="full" nextSceneIdentifier="3" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false">
-     <fonts/>
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#002E45" currentTimeline="2" xflVersion="2.0" creatorInfo="Adobe Flash Professional CS5" platform="Macintosh" versionInfo="Saved by Adobe Flash Macintosh 11.0 build 485" majorVersion="11" buildNumber="485" gridSnapTo="true" nextSceneIdentifier="3" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false">
      <media>
           <DOMBitmapItem name="chair.png" itemID="4d8cbcd7-00000a19" sourceExternalFilepath="./LIBRARY/chair.png" sourceLastImported="1301068973" sourcePlatform="macintosh" originalCompressionType="lossless" quality="50" href="chair.png" bitmapDataHRef="M 7 1301068967.dat" frameRight="2560" frameBottom="2560"/>
           <DOMBitmapItem name="down.png" itemID="4d8bc382-00000b39" sourceExternalFilepath="./LIBRARY/down.png" sourceLastImported="1298883186" sourcePlatform="macintosh" externalFileSize="1253" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="down.png" bitmapDataHRef="M 1 1301004257.dat" frameRight="600" frameBottom="600"/>
@@ -19,33 +18,33 @@
           <Include href="go.xml" loadImmediate="false"/>
           <Include href="hand_left.xml" loadImmediate="false"/>
           <Include href="hand_right.xml" loadImmediate="false"/>
-          <Include href="left.xml" loadImmediate="false"/>
+          <Include href="left.xml"/>
           <Include href="logo.xml" itemIcon="1" loadImmediate="false"/>
           <Include href="navigation.xml" loadImmediate="false"/>
           <Include href="office_girl.xml" loadImmediate="false"/>
-          <Include href="right.xml" loadImmediate="false"/>
+          <Include href="right.xml"/>
           <Include href="start.xml" itemIcon="0" loadImmediate="false"/>
-          <Include href="up.xml" loadImmediate="false"/>
+          <Include href="up.xml"/>
           <Include href="worker.xml" loadImmediate="false"/>
      </symbols>
      <timelines>
           <DOMTimeline name="Loader">
                <layers>
-                    <DOMLayer name="Actions" color="#9933CC" autoNamed="false">
+                    <DOMLayer name="Actions" color="#9933CC" current="true" isSelected="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[import flash.events.MouseEvent;stop();start.addEventListener(MouseEvent.CLICK, startClicked);function startClicked(event:MouseEvent):void{	gotoFactory();}]]></script>
+                                        <script><![CDATA[import flash.events.MouseEvent;stop();start.addEventListener(MouseEvent.CLICK, startClicked);function startClicked(event:MouseEvent):void{	gotoAndPlay('start', 'Factory');}]]></script>
                                    </Actionscript>
                                    <elements/>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Logo" color="#FF800A" current="true" isSelected="true" autoNamed="false">
+                    <DOMLayer name="Logo" color="#FF800A" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="logo" name="" selected="true" symbolType="graphic" loop="loop">
+                                        <DOMSymbolInstance libraryItemName="logo" name="" symbolType="graphic" loop="loop">
                                              <matrix>
                                                   <Matrix ty="230"/>
                                              </matrix>
@@ -151,7 +150,7 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Worker" color="#9933CC" autoNamed="false">
+                    <DOMLayer name="Worker" color="#9933CC" current="true" isSelected="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
@@ -187,7 +186,7 @@
                                                   <Point y="-0.1"/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="worker" name="you" centerPoint3DX="310" centerPoint3DY="239">
+                                        <DOMSymbolInstance libraryItemName="worker" name="you" selected="true" centerPoint3DX="310" centerPoint3DY="239">
                                              <matrix>
                                                   <Matrix tx="310" ty="239"/>
                                              </matrix>
@@ -215,11 +214,11 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Actions" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+                    <DOMLayer name="Actions" color="#9933CC" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" name="start" labelType="name" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[stop();]]></script>
+                                        <script><![CDATA[stop();startFactory();]]></script>
                                    </Actionscript>
                                    <elements/>
                               </DOMFrame>
@@ -535,25 +534,25 @@
      </persistentData>
      <PrinterSettings platform="macintosh"/>
      <publishHistory>
-          <PublishItem publishSize="23931" publishTime="1301668650"/>
-          <PublishItem publishSize="23930" publishTime="1301667946"/>
-          <PublishItem publishSize="23931" publishTime="1301667933"/>
-          <PublishItem publishSize="23936" publishTime="1301667905"/>
-          <PublishItem publishSize="23932" publishTime="1301667881"/>
-          <PublishItem publishSize="23932" publishTime="1301667875"/>
-          <PublishItem publishSize="23880" publishTime="1301667759"/>
-          <PublishItem publishSize="23869" publishTime="1301667742"/>
-          <PublishItem publishSize="23842" publishTime="1301667714"/>
-          <PublishItem publishSize="23842" publishTime="1301667692"/>
-          <PublishItem publishSize="23840" publishTime="1301667668"/>
-          <PublishItem publishSize="23838" publishTime="1301667663"/>
-          <PublishItem publishSize="23850" publishTime="1301667651"/>
-          <PublishItem publishSize="23292" publishTime="1301667619"/>
-          <PublishItem publishSize="23292" publishTime="1301667588"/>
-          <PublishItem publishSize="21679" publishTime="1301666772"/>
-          <PublishItem publishSize="21685" publishTime="1301666686"/>
-          <PublishItem publishSize="21668" publishTime="1301666647"/>
-          <PublishItem publishSize="21645" publishTime="1301666209"/>
-          <PublishItem publishSize="21651" publishTime="1301666195"/>
+          <PublishItem publishSize="32269" publishTime="1302698085"/>
+          <PublishItem publishSize="32270" publishTime="1302698063"/>
+          <PublishItem publishSize="32267" publishTime="1302698039"/>
+          <PublishItem publishSize="32254" publishTime="1302697824"/>
+          <PublishItem publishSize="32254" publishTime="1302697782"/>
+          <PublishItem publishSize="32253" publishTime="1302697773"/>
+          <PublishItem publishSize="32230" publishTime="1302697702"/>
+          <PublishItem publishSize="32225" publishTime="1302697600"/>
+          <PublishItem publishSize="32236" publishTime="1302697552"/>
+          <PublishItem publishSize="32246" publishTime="1302697537"/>
+          <PublishItem publishSize="32235" publishTime="1302697344"/>
+          <PublishItem publishSize="32232" publishTime="1302697335"/>
+          <PublishItem publishSize="32229" publishTime="1302697322"/>
+          <PublishItem publishSize="32205" publishTime="1302697255"/>
+          <PublishItem publishSize="32229" publishTime="1302697247"/>
+          <PublishItem publishSize="32229" publishTime="1302697233"/>
+          <PublishItem publishSize="32243" publishTime="1302696486"/>
+          <PublishItem publishSize="32243" publishTime="1302696478"/>
+          <PublishItem publishSize="32243" publishTime="1302696462"/>
+          <PublishItem publishSize="32226" publishTime="1302696447"/>
      </publishHistory>
 </DOMDocument>

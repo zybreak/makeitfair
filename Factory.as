@@ -1,50 +1,1 @@
-﻿package {
-	import flash.display.MovieClip;
-	import flash.events.KeyboardEvent;
-	import flash.ui.Keyboard;
-	import flash.events.Event;
-
-	public class Factory {
-		
-		private var down:Down;
-
-		public function Factory() {
-			this.down = new  Down();
-			this.down.x = 0;
-			this.down.y = -130;
-			
-			belt.addChild(this.down);
-			
-			stage.addEventListener(KeyboardEvent.KEY_DOWN, this.keyPressed);
-			stage.addEventListener(KeyboardEvent.KEY_UP, this.keyReleased);
-			stage.addEventListener(Event.ENTER_FRAME, this.enterFrame);
-		}
-		
-		private function enterFrame(event:Event) {
-			this.down.y += 5;
-			if (this.down.y > 100) {
-				this.down.y = -130;
-			}
-		}
-		
-		private function keyReleased(event:KeyboardEvent) {
-		}
-
-		private function keyPressed(event:KeyboardEvent) {
-			switch (event.keyCode) {
-				case Keyboard.LEFT:
-					break;
-				case Keyboard.UP:
-					this.down.y -= 10;
-					break;
-				case Keyboard.RIGHT:
-					break;
-				case Keyboard.DOWN:
-					this.down.y += 10;
-					break;
-				default:
-					return;
-			}
-		}
-	}
-}
+﻿package {	import flash.events.KeyboardEvent;	import flash.ui.Keyboard;	import flash.events.Event;	import flash.display.Stage;	import flash.display.MovieClip;	public class Factory {				private var down:Down;		private var stage:Stage;		private var belt:MovieClip;		private var you:MovieClip;		public function Factory(stage:Stage, belt:MovieClip, you:MovieClip) {			this.stage = stage;			this.belt = belt;			this.you = you;						you.stop();						this.down = new  Down();			this.down.x = 0;			this.down.y = -130;						this.belt.addChild(this.down);						stage.addEventListener(KeyboardEvent.KEY_DOWN, this.keyPressed);			stage.addEventListener(KeyboardEvent.KEY_UP, this.keyReleased);			stage.addEventListener(Event.ENTER_FRAME, this.enterFrame);		}				private function enterFrame(event:Event) {			this.down.y += 5;			if (this.down.y > 100) {				this.down.y = -130;			}		}				private function keyReleased(event:KeyboardEvent) {		}		private function keyPressed(event:KeyboardEvent) {			this.you.gotoAndStop(this.you.currentFrame+5);			if (this.you.currentFrame >= this.you.totalFrames) {				this.you.gotoAndStop(1);			}						switch (event.keyCode) {				case Keyboard.LEFT:					break;				case Keyboard.UP:					break;				case Keyboard.RIGHT:					break;				case Keyboard.DOWN:					break;				default:					return;			}		}	}}
