@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="belt" itemID="4d934e6b-00000957" sourceLibraryItemHRef="Symbol 1" lastModified="1301499500">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="belt" itemID="4d934e6b-00000957" linkageExportForAS="true" linkageClassName="Pipeline" sourceLibraryItemHRef="Symbol 1" lastModified="1303905403">
   <timeline>
     <DOMTimeline name="belt">
       <layers>

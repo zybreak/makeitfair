@@ -1,0 +1,1 @@
+﻿package  {	import flash.display.MovieClip;		public class Part extends MovieClip {		public function Part() {			this.x = 0;			this.y = -130;		}	}	}

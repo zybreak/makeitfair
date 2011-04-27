@@ -1,15 +1,1 @@
-﻿package  {
-	
-	import flash.display.MovieClip;
-	
-	
-	public class Down extends MovieClip {
-		
-		
-		public function Down() {
-			// constructor code
-		}
-	}
-	
-}
-
+﻿package  {		public class Down extends Part {						public function Down() {			// constructor code		}	}	}

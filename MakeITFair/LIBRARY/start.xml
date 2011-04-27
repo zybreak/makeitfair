@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="start" itemID="4d95dece-00000fb5" sourceLibraryItemHRef="start" symbolType="button" lastModified="1301668786">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="start" itemID="4d95dece-00000fb5" sourceLibraryItemHRef="start" symbolType="button" lastModified="1303902313">
   <timeline>
     <DOMTimeline name="start">
       <layers>
@@ -6,7 +6,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMStaticText selected="true" width="458.7" height="48" isSelectable="false">
+                <DOMStaticText selected="true" width="458.7" height="46.05" isSelectable="false">
                   <matrix>
                     <Matrix tx="-229.35" ty="-24"/>
                   </matrix>
@@ -14,7 +14,7 @@
                     <DOMTextRun>
                       <characters>click to start</characters>
                       <textAttrs>
-                        <DOMTextAttrs alignment="center" aliasText="false" rotation="true" lineSpacing="0.3" size="46" bitmapSize="920" face="Blurfont" fillColor="#FFFFFF"/>
+                        <DOMTextAttrs alignment="center" aliasText="false" rotation="true" lineSpacing="0.3" size="46" bitmapSize="920" face="Skia-Regular" fillColor="#BDCFE3"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>
@@ -29,7 +29,7 @@
             </DOMFrame>
             <DOMFrame index="1" keyMode="9728">
               <elements>
-                <DOMStaticText width="458.7" height="48" isSelectable="false">
+                <DOMStaticText width="458.7" height="46.05" isSelectable="false">
                   <matrix>
                     <Matrix tx="-229.35" ty="-24"/>
                   </matrix>
@@ -37,7 +37,7 @@
                     <DOMTextRun>
                       <characters>click to start</characters>
                       <textAttrs>
-                        <DOMTextAttrs alignment="center" aliasText="false" rotation="true" lineSpacing="0.3" size="46" bitmapSize="920" face="Blurfont" fillColor="#CCCCCC"/>
+                        <DOMTextAttrs alignment="center" aliasText="false" rotation="true" lineSpacing="0.3" size="46" bitmapSize="920" face="Skia-Regular" fillColor="#CCCCCC"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>
@@ -52,7 +52,7 @@
             </DOMFrame>
             <DOMFrame index="2" keyMode="9728">
               <elements>
-                <DOMStaticText width="458.7" height="48" isSelectable="false">
+                <DOMStaticText width="458.7" height="46.05" isSelectable="false">
                   <matrix>
                     <Matrix tx="-227.35" ty="-22"/>
                   </matrix>
@@ -60,7 +60,7 @@
                     <DOMTextRun>
                       <characters>click to start</characters>
                       <textAttrs>
-                        <DOMTextAttrs alignment="center" aliasText="false" rotation="true" lineSpacing="0.3" size="46" face="Blurfont" fillColor="#CCCCCC"/>
+                        <DOMTextAttrs alignment="center" aliasText="false" rotation="true" lineSpacing="0.3" size="46" bitmapSize="920" face="Skia-Regular" fillColor="#CCCCCC"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>
@@ -75,7 +75,7 @@
             </DOMFrame>
             <DOMFrame index="3" keyMode="9728">
               <elements>
-                <DOMStaticText width="458.7" height="48" isSelectable="false">
+                <DOMStaticText selected="true" width="458.7" height="46.05" isSelectable="false">
                   <matrix>
                     <Matrix tx="-227.35" ty="-22"/>
                   </matrix>
@@ -83,7 +83,7 @@
                     <DOMTextRun>
                       <characters>click to start</characters>
                       <textAttrs>
-                        <DOMTextAttrs alignment="center" aliasText="false" rotation="true" lineSpacing="0.3" size="46" face="Blurfont" fillColor="#CCCCCC"/>
+                        <DOMTextAttrs alignment="center" aliasText="false" rotation="true" lineSpacing="0.3" size="46" bitmapSize="920" face="Skia-Regular" fillColor="#CCCCCC"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>

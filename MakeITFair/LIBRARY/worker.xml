@@ -1,8 +1,8 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="worker" itemID="4d8cc099-00000a4e" sourceLibraryItemHRef="Symbol 1" lastModified="1301589040" lastUniqueIdentifier="12">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="worker" itemID="4d8cc099-00000a4e" sourceLibraryItemHRef="Symbol 1" lastModified="1303902721" lastUniqueIdentifier="12">
   <timeline>
-    <DOMTimeline name="worker" currentFrame="24">
+    <DOMTimeline name="worker">
       <layers>
-        <DOMLayer name="animation" color="#FF800A" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="animation" color="#FF800A" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="4" keyMode="9728">
               <elements>
@@ -125,7 +125,7 @@
               <elements>
                 <DOMSymbolInstance libraryItemName="chair" name="">
                   <matrix>
-                    <Matrix tx="-0.5" ty="46"/>
+                    <Matrix a="1.015625" d="1.015625" tx="-0.5" ty="67"/>
                   </matrix>
                   <transformationPoint>
                     <Point/>
@@ -135,13 +135,13 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="office_girl" color="#4FFFFF" autoNamed="false">
+        <DOMLayer name="office_girl" color="#4FFFFF" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="25" keyMode="9728">
               <elements>
                 <DOMSymbolInstance libraryItemName="office_girl" name="">
                   <matrix>
-                    <Matrix tx="0.5" ty="-46"/>
+                    <Matrix a="0.708984375" d="0.709335327148438" tx="0.4" ty="-66"/>
                   </matrix>
                   <transformationPoint>
                     <Point/>

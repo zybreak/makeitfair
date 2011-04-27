@@ -1,1 +1,1 @@
-﻿package  {		import flash.display.MovieClip;			public class Left extends MovieClip {						public function Left() {			// constructor code		}	}	}
+﻿package  {		public class Left extends Part {						public function Left() {			// constructor code		}	}	}
