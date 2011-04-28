@@ -17,7 +17,7 @@
               <elements>
                 <DOMBitmapInstance name="" referenceID="" libraryItemName="up.png">
                   <matrix>
-                    <Matrix a="1.00001525878906" d="1.00001525878906" tx="-15" ty="-30"/>
+                    <Matrix tx="-15" ty="-30"/>
                   </matrix>
                 </DOMBitmapInstance>
               </elements>

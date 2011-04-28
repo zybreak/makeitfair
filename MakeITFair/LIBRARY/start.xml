@@ -75,7 +75,7 @@
             </DOMFrame>
             <DOMFrame index="3" keyMode="9728">
               <elements>
-                <DOMStaticText selected="true" width="458.7" height="46.05" isSelectable="false">
+                <DOMStaticText width="458.7" height="46.05" isSelectable="false">
                   <matrix>
                     <Matrix tx="-227.35" ty="-22"/>
                   </matrix>

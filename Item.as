@@ -1,11 +1,1 @@
-package  {
-	
-	public class Item {
-
-		public function Item() {
-			// constructor code
-		}
-
-	}
-	
-}
+﻿package {	public class Item	{		public var parts:Array;		public function Item(parts:Array)		{			this.parts = parts;		}	}}

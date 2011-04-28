@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="right" itemID="4d8cbc38-00000a02" linkageExportForAS="true" linkageClassName="Right" sourceLibraryItemHRef="Symbol 1" lastModified="1302699233">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="right" itemID="4d8cbc38-00000a02" linkageExportForAS="true" linkageClassName="Right" sourceLibraryItemHRef="Symbol 1" lastModified="1303912582">
   <timeline>
     <DOMTimeline name="right">
       <layers>
@@ -8,7 +8,7 @@
               <elements>
                 <DOMBitmapInstance name="" referenceID="" selected="true" libraryItemName="right.png">
                   <matrix>
-                    <Matrix ty="-15"/>
+                    <Matrix tx="-15" ty="-15"/>
                   </matrix>
                 </DOMBitmapInstance>
               </elements>
