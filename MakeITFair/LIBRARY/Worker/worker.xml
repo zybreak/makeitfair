@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="worker" itemID="4d8cc099-00000a4e" sourceLibraryItemHRef="Symbol 1" lastModified="1303902721" lastUniqueIdentifier="12">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Worker/worker" itemID="4d8cc099-00000a4e" sourceLibraryItemHRef="Symbol 1" lastModified="1303902721" lastUniqueIdentifier="12">
   <timeline>
     <DOMTimeline name="worker">
       <layers>
@@ -6,7 +6,7 @@
           <frames>
             <DOMFrame index="0" duration="4" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="hand_left" name="">
+                <DOMSymbolInstance libraryItemName="Worker/hand_left" name="">
                   <matrix>
                     <Matrix tx="-40.55" ty="-5"/>
                   </matrix>
@@ -14,7 +14,7 @@
                     <Point x="16" y="16"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="hand_right" name="" centerPoint3DX="19.45" centerPoint3DY="16">
+                <DOMSymbolInstance libraryItemName="Worker/hand_right" name="" centerPoint3DX="19.45" centerPoint3DY="16">
                   <matrix>
                     <Matrix tx="35.45"/>
                   </matrix>
@@ -26,7 +26,7 @@
             </DOMFrame>
             <DOMFrame index="4" duration="5" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="hand_left" name="" selected="true">
+                <DOMSymbolInstance libraryItemName="Worker/hand_left" name="" selected="true">
                   <matrix>
                     <Matrix tx="-45.55" ty="2"/>
                   </matrix>
@@ -34,7 +34,7 @@
                     <Point x="16" y="16"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="hand_right" name="" selected="true" centerPoint3DX="25.45" centerPoint3DY="12">
+                <DOMSymbolInstance libraryItemName="Worker/hand_right" name="" selected="true" centerPoint3DX="25.45" centerPoint3DY="12">
                   <matrix>
                     <Matrix tx="41.45" ty="-4"/>
                   </matrix>
@@ -46,7 +46,7 @@
             </DOMFrame>
             <DOMFrame index="9" duration="5" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="hand_left" name="" selected="true">
+                <DOMSymbolInstance libraryItemName="Worker/hand_left" name="" selected="true">
                   <matrix>
                     <Matrix tx="-38.55" ty="11"/>
                   </matrix>
@@ -54,7 +54,7 @@
                     <Point x="16" y="16"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="hand_right" name="" selected="true" centerPoint3DX="16.45" centerPoint3DY="12">
+                <DOMSymbolInstance libraryItemName="Worker/hand_right" name="" selected="true" centerPoint3DX="16.45" centerPoint3DY="12">
                   <matrix>
                     <Matrix tx="32.45" ty="-4"/>
                   </matrix>
@@ -66,7 +66,7 @@
             </DOMFrame>
             <DOMFrame index="14" duration="5" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="hand_left" name="" selected="true">
+                <DOMSymbolInstance libraryItemName="Worker/hand_left" name="" selected="true">
                   <matrix>
                     <Matrix tx="-27.55" ty="1"/>
                   </matrix>
@@ -74,7 +74,7 @@
                     <Point x="16" y="16"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="hand_right" name="" selected="true" centerPoint3DX="16.45" centerPoint3DY="24">
+                <DOMSymbolInstance libraryItemName="Worker/hand_right" name="" selected="true" centerPoint3DX="16.45" centerPoint3DY="24">
                   <matrix>
                     <Matrix tx="32.45" ty="8"/>
                   </matrix>
@@ -86,7 +86,7 @@
             </DOMFrame>
             <DOMFrame index="19" duration="6" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="hand_left" name="">
+                <DOMSymbolInstance libraryItemName="Worker/hand_left" name="">
                   <matrix>
                     <Matrix tx="-38.55" ty="-7"/>
                   </matrix>
@@ -94,7 +94,7 @@
                     <Point x="16" y="16"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="hand_right" name="" selected="true" centerPoint3DX="22.45" centerPoint3DY="19">
+                <DOMSymbolInstance libraryItemName="Worker/hand_right" name="" selected="true" centerPoint3DX="22.45" centerPoint3DY="19">
                   <matrix>
                     <Matrix tx="38.45" ty="3"/>
                   </matrix>
@@ -110,7 +110,7 @@
           <frames>
             <DOMFrame index="0" duration="25" keyMode="9728">
               <elements>
-                <DOMBitmapInstance name="" referenceID="" libraryItemName="hardware.png">
+                <DOMBitmapInstance name="" referenceID="" libraryItemName="Worker/hardware.png">
                   <matrix>
                     <Matrix tx="-36" ty="-4"/>
                   </matrix>
@@ -123,7 +123,7 @@
           <frames>
             <DOMFrame index="0" duration="25" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="chair" name="">
+                <DOMSymbolInstance libraryItemName="Worker/chair" name="">
                   <matrix>
                     <Matrix a="1.015625" d="1.015625" tx="-0.5" ty="67"/>
                   </matrix>
@@ -139,7 +139,7 @@
           <frames>
             <DOMFrame index="0" duration="25" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="office_girl" name="">
+                <DOMSymbolInstance libraryItemName="Worker/office_girl" name="">
                   <matrix>
                     <Matrix a="0.708984375" d="0.709335327148438" tx="0.4" ty="-66"/>
                   </matrix>

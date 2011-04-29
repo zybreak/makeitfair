@@ -1,12 +1,12 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="left" itemID="4d8cbc20-000009fa" linkageExportForAS="true" linkageClassName="Left" sourceLibraryItemHRef="Symbol 1" lastModified="1303912579">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Parts/right" itemID="4d8cbc38-00000a02" linkageExportForAS="true" linkageClassName="Right" sourceLibraryItemHRef="Symbol 1" lastModified="1303912582">
   <timeline>
-    <DOMTimeline name="left">
+    <DOMTimeline name="right">
       <layers>
         <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMBitmapInstance name="" referenceID="" selected="true" libraryItemName="left.png">
+                <DOMBitmapInstance name="" referenceID="" selected="true" libraryItemName="Parts/right.png">
                   <matrix>
                     <Matrix tx="-15" ty="-15"/>
                   </matrix>

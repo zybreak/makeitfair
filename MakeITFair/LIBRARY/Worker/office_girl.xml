@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="office_girl" itemID="4d8cbbcb-000009e5" sourceLibraryItemHRef="Symbol 1" lastModified="1303902689">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Worker/office_girl" itemID="4d8cbbcb-000009e5" sourceLibraryItemHRef="Symbol 1" lastModified="1303902689">
   <timeline>
     <DOMTimeline name="office_girl">
       <layers>
@@ -6,7 +6,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMBitmapInstance name="" referenceID="" selected="true" libraryItemName="player.png">
+                <DOMBitmapInstance name="" referenceID="" selected="true" libraryItemName="Worker/player.png">
                   <matrix>
                     <Matrix a="0.57659912109375" d="0.5765380859375" tx="-64" ty="-64"/>
                   </matrix>

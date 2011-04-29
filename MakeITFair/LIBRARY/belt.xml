@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="belt" itemID="4d934e6b-00000957" linkageExportForAS="true" linkageClassName="Pipeline" sourceLibraryItemHRef="Symbol 1" lastModified="1303905403">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="belt" itemID="4d934e6b-00000957" linkageExportForAS="true" linkageClassName="Pipeline" sourceLibraryItemHRef="Symbol 1" lastModified="1304074907">
   <timeline>
     <DOMTimeline name="belt">
       <layers>
@@ -9,7 +9,14 @@
                 <DOMShape>
                   <fills>
                     <FillStyle index="1">
-                      <SolidColor color="#A07625"/>
+                      <LinearGradient>
+                        <matrix>
+                          <Matrix a="0" b="-0.09130859375" c="0.0244140625" d="0" ty="-54.55"/>
+                        </matrix>
+                        <GradientEntry color="#D09734" ratio="0"/>
+                        <GradientEntry color="#FFCC4B" ratio="0.666666666666667"/>
+                        <GradientEntry color="#FFD08A" ratio="1"/>
+                      </LinearGradient>
                     </FillStyle>
                   </fills>
                   <strokes>
@@ -22,7 +29,7 @@
                     </StrokeStyle>
                   </strokes>
                   <edges>
-                    <Edge fillStyle0="1" strokeStyle="1" edges="!300 -2700S5|-300 -2700!-300 -2700[-400 -2700 -400 -2600!-400 -2600|-400 2700!-400 2700|400 2700!400 2700|400 -2600!400 -2600[400 -2700 300 -2700"/>
+                    <Edge fillStyle0="1" strokeStyle="1" edges="!300 -2700|-300 -2700!-300 -2700[-400 -2700 -400 -2600!-400 -2600|-400 2700!-400 2700|400 2700!400 2700|400 -2600!400 -2600[400 -2700 300 -2700"/>
                   </edges>
                 </DOMShape>
               </elements>

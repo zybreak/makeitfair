@@ -1,14 +1,14 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="right" itemID="4d8cbc38-00000a02" linkageExportForAS="true" linkageClassName="Right" sourceLibraryItemHRef="Symbol 1" lastModified="1303912582">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Parts/down" itemID="4d8cbc0c-000009f2" linkageExportForAS="true" linkageClassName="Down" sourceLibraryItemHRef="Symbol 1" lastModified="1301586764">
   <timeline>
-    <DOMTimeline name="right">
+    <DOMTimeline name="down">
       <layers>
         <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMBitmapInstance name="" referenceID="" selected="true" libraryItemName="right.png">
+                <DOMBitmapInstance name="" referenceID="" selected="true" libraryItemName="Parts/down.png">
                   <matrix>
-                    <Matrix tx="-15" ty="-15"/>
+                    <Matrix tx="-15"/>
                   </matrix>
                 </DOMBitmapInstance>
               </elements>

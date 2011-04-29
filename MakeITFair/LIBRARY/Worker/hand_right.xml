@@ -1,14 +1,14 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="chair" itemID="4d8cbcd7-00000a18" sourceLibraryItemHRef="Symbol 1" lastModified="1303902515">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Worker/hand_right" itemID="4d8cbeca-00000a38" sourceLibraryItemHRef="Symbol 1" lastModified="1301069514">
   <timeline>
-    <DOMTimeline name="chair">
+    <DOMTimeline name="hand_right">
       <layers>
         <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMBitmapInstance name="" referenceID="" selected="true" libraryItemName="desk2.png">
+                <DOMBitmapInstance name="" referenceID="" selected="true" libraryItemName="Worker/hand_right.png">
                   <matrix>
-                    <Matrix tx="-64" ty="-64"/>
+                    <Matrix tx="-32"/>
                   </matrix>
                 </DOMBitmapInstance>
               </elements>
