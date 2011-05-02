@@ -1,0 +1,1 @@
+﻿package  {	import flash.events.Event;		public class PipelineEvent extends Event {				public static const PipelineHit:String = 'PipelineHit';		public static const PipelineMiss:String = 'PipelineMiss';		public function PipelineEvent(command:String) {			super(command);		}	}}

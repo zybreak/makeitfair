@@ -1,1 +1,1 @@
-﻿package {	public class Item	{		public var parts:Array;		public function Item(parts:Array)		{			this.parts = parts;		}	}}
+﻿package {	public class Item	{		public var image:String;		public var parts:Array;		public function Item(image:String, parts:Array)		{			this.image = image;			this.parts = parts;		}	}}

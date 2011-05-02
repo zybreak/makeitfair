@@ -1,6 +1,6 @@
 <DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Worker/worker" itemID="4d8cc099-00000a4e" sourceLibraryItemHRef="Symbol 1" lastModified="1303902721" lastUniqueIdentifier="12">
   <timeline>
-    <DOMTimeline name="worker">
+    <DOMTimeline name="worker" currentFrame="14">
       <layers>
         <DOMLayer name="animation" color="#FF800A" autoNamed="false">
           <frames>
@@ -66,7 +66,7 @@
             </DOMFrame>
             <DOMFrame index="14" duration="5" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Worker/hand_left" name="" selected="true">
+                <DOMSymbolInstance libraryItemName="Worker/hand_left" name="">
                   <matrix>
                     <Matrix tx="-27.55" ty="1"/>
                   </matrix>
@@ -74,7 +74,7 @@
                     <Point x="16" y="16"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Worker/hand_right" name="" selected="true" centerPoint3DX="16.45" centerPoint3DY="24">
+                <DOMSymbolInstance libraryItemName="Worker/hand_right" name="" centerPoint3DX="16.45" centerPoint3DY="24">
                   <matrix>
                     <Matrix tx="32.45" ty="8"/>
                   </matrix>

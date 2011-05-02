@@ -1,0 +1,1 @@
+﻿package Items{	public class CameraItem extends Item	{		public function CameraItem()		{			super('camera', [			new Down(),			new Down(),			new Up(),			new Up(),			new Left(),			new Right()]);		}	}}

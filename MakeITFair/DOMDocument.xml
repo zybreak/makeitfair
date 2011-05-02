@@ -1,35 +1,48 @@
 <DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#002E45" currentTimeline="2" xflVersion="2.0" creatorInfo="Adobe Flash Professional CS5" platform="Macintosh" versionInfo="Saved by Adobe Flash Macintosh 11.0 build 489" majorVersion="11" buildNumber="489" gridSnapTo="true" nextSceneIdentifier="3" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false">
      <folders>
+          <DOMFolderItem name="Items" itemID="4dbe91f8-000004a1" isExpanded="true"/>
           <DOMFolderItem name="Logos" itemID="4db99f38-00000289"/>
           <DOMFolderItem name="Parts" itemID="4dba9f38-000003ac"/>
           <DOMFolderItem name="Sounds" itemID="4dba9edb-0000039e"/>
           <DOMFolderItem name="Worker" itemID="4dba9f1a-000003a3"/>
      </folders>
+     <fonts>
+          <DOMFontItem name="Font 1" itemID="4dbe90d1-00000449" font="Verdana" size="0" id="1" sourceLastImported="1304334545" embedRanges="3"/>
+     </fonts>
      <media>
-          <DOMBitmapItem name="card.png" itemID="4dba9e80-00000390" sourceExternalFilepath="./LIBRARY/card2.png" sourceLastImported="1304075904" sourcePlatform="macintosh" externalFileSize="8403" originalCompressionType="lossless" quality="50" href="card.png" bitmapDataHRef="M 17 1304074718.dat" frameRight="1280" frameBottom="1280"/>
+          <DOMBitmapItem name="Items/camera.png" itemID="4dbe9764-000004dd" sourceExternalFilepath="./LIBRARY/Items/camera.png" sourceLastImported="1304336225" sourcePlatform="macintosh" externalFileSize="6454" originalCompressionType="lossless" quality="50" href="Items/camera.png" bitmapDataHRef="M 20 1304334881.dat" frameRight="1280" frameBottom="1280"/>
+          <DOMBitmapItem name="Items/card.png" itemID="4dbe9321-000004cf" sourceExternalFilepath="./LIBRARY/Items/card.png" sourceLastImported="1304335134" sourcePlatform="macintosh" externalFileSize="8403" originalCompressionType="lossless" quality="50" href="Items/card.png" bitmapDataHRef="M 17 1304074718.dat" frameRight="1280" frameBottom="1280"/>
           <DOMSoundItem name="Sounds/click" itemID="4dba9fa2-000003ae" linkageExportForAS="true" linkageClassName="ClickSound" sourceExternalFilepath="./LIBRARY/Sounds/click.mp3" sourceLastImported="1304076186" sourcePlatform="macintosh" externalFileSize="7572" href="Sounds/click.mp3" soundDataHRef="M 16 1303904149.dat" format="44kHz 16bit Mono" sampleCount="20736" exportFormat="1" exportBits="7" dataLength="7524" exportNative="true" cachedSampleCount="2592"/>
           <DOMBitmapItem name="Worker/desk.png" itemID="4dba9fa2-000003af" sourceExternalFilepath="./LIBRARY/Worker/desk.png" sourceLastImported="1304076186" sourcePlatform="macintosh" externalFileSize="18191" originalCompressionType="lossless" quality="50" href="Worker/desk.png" bitmapDataHRef="M 14 1303902493.dat" frameRight="2560" frameBottom="2560"/>
           <DOMBitmapItem name="Parts/down.png" itemID="4dba9fa2-000003b0" sourceExternalFilepath="./LIBRARY/Parts/down.png" sourceLastImported="1304076186" sourcePlatform="macintosh" externalFileSize="1253" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Parts/down.png" bitmapDataHRef="M 1 1301004257.dat" frameRight="600" frameBottom="600"/>
+          <DOMBitmapItem name="factory_floor_with_wall.png" itemID="4dbd54a3-000002ab" sourceExternalFilepath="./LIBRARY/factory_floor_with_wall.png" sourceLastImported="1304196552" sourcePlatform="macintosh" externalFileSize="149671" originalCompressionType="lossless" quality="50" href="factory_floor_with_wall.png" bitmapDataHRef="M 18 1304253509.dat" frameRight="11000" frameBottom="8000"/>
           <DOMSoundItem name="Sounds/fail" itemID="4dba9fa2-000003b1" linkageExportForAS="true" linkageClassName="FailSound" sourceExternalFilepath="./LIBRARY/Sounds/fail.mp3" sourceLastImported="1304076186" sourcePlatform="macintosh" externalFileSize="7154" href="Sounds/fail.mp3" soundDataHRef="M 17 1303904672.dat" format="44kHz 16bit Mono" sampleCount="19584" exportFormat="1" exportBits="7" dataLength="7106" exportNative="true" cachedSampleCount="2448"/>
           <DOMBitmapItem name="Logos/fairtradelogo" itemID="4db9a919-00000327" sourceExternalFilepath="./LIBRARY/Logos/fairtradelogo.png" sourceLastImported="1304010740" sourcePlatform="macintosh" externalFileSize="18325" originalCompressionType="lossless" quality="50" href="Logos/fairtradelogo.png" bitmapDataHRef="M 16 1304008794.dat" frameRight="8220" frameBottom="1620"/>
           <DOMSoundItem name="Sounds/game" itemID="4dba9fa4-000003b2" linkageExportForAS="true" linkageClassName="GameSound" sourceExternalFilepath="./LIBRARY/Sounds/game.mp3" sourceLastImported="1304076186" sourcePlatform="macintosh" externalFileSize="6222474" href="Sounds/game.mp3" soundDataHRef="M 12 1303844304.dat" format="44kHz 16bit Stereo" sampleCount="6856704"/>
+          <DOMBitmapItem name="Items/gamepad.png" itemID="4dbe931e-000004ca" sourceExternalFilepath="./LIBRARY/Items/gamepad.png" sourceLastImported="1302953731" sourcePlatform="macintosh" externalFileSize="8256" originalCompressionType="lossless" quality="50" href="Items/gamepad.png" bitmapDataHRef="M 21 1304334907.dat" frameRight="2560" frameBottom="2560"/>
           <DOMBitmapItem name="Worker/hand_left.png" itemID="4d8cc099-00000a4f" sourceExternalFilepath="./LIBRARY/hand_left.png" sourceLastImported="1301069772" sourcePlatform="macintosh" originalCompressionType="lossless" quality="50" href="Worker/hand_left.png" bitmapDataHRef="M 9 1301069474.dat" frameRight="640" frameBottom="640"/>
           <DOMBitmapItem name="Worker/hand_right.png" itemID="4d8cbeca-00000a39" sourceExternalFilepath="./LIBRARY/hand_right.png" sourceLastImported="1301069450" sourcePlatform="macintosh" originalCompressionType="lossless" quality="50" href="Worker/hand_right.png" bitmapDataHRef="M 8 1301069473.dat" frameRight="640" frameBottom="640"/>
           <DOMBitmapItem name="Worker/hardware.png" itemID="4dba9fa4-000003b3" sourceExternalFilepath="./LIBRARY/Worker/hardware.png" sourceLastImported="1304076187" sourcePlatform="macintosh" externalFileSize="9245" originalCompressionType="lossless" quality="50" href="Worker/hardware.png" bitmapDataHRef="M 11 1301073887.dat" frameRight="1500" frameBottom="1080"/>
+          <DOMBitmapItem name="Items/ipod.png" itemID="4dbe931e-000004cb" sourceExternalFilepath="./LIBRARY/Items/ipod.png" sourceLastImported="1303060306" sourcePlatform="macintosh" externalFileSize="24071" originalCompressionType="lossless" quality="50" href="Items/ipod.png" bitmapDataHRef="M 22 1304334921.dat" frameRight="4840" frameBottom="4800"/>
           <DOMBitmapItem name="Parts/left.png" itemID="4dba9fa4-000003b4" sourceExternalFilepath="./LIBRARY/Parts/left.png" sourceLastImported="1304076187" sourcePlatform="macintosh" externalFileSize="1229" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Parts/left.png" bitmapDataHRef="M 2 1301004257.dat" frameRight="600" frameBottom="600"/>
           <DOMBitmapItem name="Logos/logo.png" itemID="4db9a919-00000328" sourceExternalFilepath="./LIBRARY/Logos/logo.png" sourceLastImported="1304010740" sourcePlatform="macintosh" externalFileSize="26780" originalCompressionType="lossless" quality="50" href="Logos/logo.png" bitmapDataHRef="M 10 1301668706.dat" frameRight="3000" frameBottom="3400"/>
+          <DOMBitmapItem name="Items/pda.png" itemID="4dbe978b-000004e3" sourceExternalFilepath="./LIBRARY/Items/pda.png" sourceLastImported="1304336266" sourcePlatform="macintosh" externalFileSize="6718" originalCompressionType="lossless" quality="50" href="Items/pda.png" bitmapDataHRef="M 23 1304334936.dat" frameRight="1280" frameBottom="1280"/>
           <DOMBitmapItem name="Worker/player.png" itemID="4dba9fa4-000003b5" sourceExternalFilepath="./LIBRARY/Worker/player.png" sourceLastImported="1304076187" sourcePlatform="macintosh" externalFileSize="44480" originalCompressionType="lossless" quality="50" href="Worker/player.png" bitmapDataHRef="M 15 1303902620.dat" frameRight="4440" frameBottom="6260"/>
           <DOMBitmapItem name="Parts/right.png" itemID="4dba9fa4-000003b6" sourceExternalFilepath="./LIBRARY/Parts/right.png" sourceLastImported="1304076187" sourcePlatform="macintosh" externalFileSize="1231" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Parts/right.png" bitmapDataHRef="M 3 1301004257.dat" frameRight="600" frameBottom="600"/>
           <DOMSoundItem name="Sounds/shooting-star" itemID="4dba9fa4-000003b7" linkageExportForAS="true" linkageClassName="StartSound" sourceExternalFilepath="./LIBRARY/Sounds/shooting-star.mp3" sourceLastImported="1304076187" sourcePlatform="macintosh" externalFileSize="31707" href="Sounds/shooting-star.mp3" soundDataHRef="M 11 1303843726.dat" format="44kHz 16bit Stereo" sampleCount="52992" exportFormat="1" exportBits="7" dataLength="31707" exportNative="true" cacheFormat="5kHz 8bit Stereo" cachedSampleCount="6624"/>
           <DOMBitmapItem name="Logos/title.png" itemID="4db9a919-00000329" sourceExternalFilepath="./LIBRARY/Logos/title.png" sourceLastImported="1304010740" sourcePlatform="macintosh" externalFileSize="39792" originalCompressionType="lossless" quality="50" href="Logos/title.png" bitmapDataHRef="M 13 1303902247.dat" frameRight="8840" frameBottom="1520"/>
+          <DOMBitmapItem name="Items/tv.png" itemID="4dbe937d-000004d6" sourceExternalFilepath="./LIBRARY/Items/tv.png" sourceLastImported="1304335225" sourcePlatform="macintosh" externalFileSize="6398" originalCompressionType="lossless" quality="50" href="Items/tv.png" bitmapDataHRef="M 24 1304334969.dat" frameRight="1280" frameBottom="1280"/>
           <DOMBitmapItem name="Parts/up.png" itemID="4dba9fa4-000003b8" sourceExternalFilepath="./LIBRARY/Parts/up.png" sourceLastImported="1304076187" sourcePlatform="macintosh" externalFileSize="1199" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Parts/up.png" bitmapDataHRef="M 4 1301004257.dat" frameRight="600" frameBottom="600"/>
+          <DOMBitmapItem name="Items/zune.png" itemID="4dbe931e-000004ce" sourceExternalFilepath="./LIBRARY/Items/zune.png" sourceLastImported="1303060583" sourcePlatform="macintosh" externalFileSize="37081" originalCompressionType="lossless" quality="50" href="Items/zune.png" bitmapDataHRef="M 25 1304334991.dat" frameRight="4840" frameBottom="4800"/>
      </media>
      <symbols>
           <Include href="belt.xml"/>
+          <Include href="item.xml" loadImmediate="false"/>
           <Include href="Logos/logo.xml" loadImmediate="false"/>
           <Include href="Logos/Symbol 1.xml" loadImmediate="false"/>
           <Include href="Logos/Symbol 2.xml" loadImmediate="false"/>
           <Include href="navigation.xml" loadImmediate="false"/>
+          <Include href="points.xml" loadImmediate="false"/>
           <Include href="Parts/down.xml"/>
           <Include href="Parts/left.xml"/>
           <Include href="Parts/right.xml"/>
@@ -42,7 +55,7 @@
           <Include href="Worker/worker.xml" loadImmediate="false"/>
      </symbols>
      <timelines>
-          <DOMTimeline name="Loader" currentFrame="14">
+          <DOMTimeline name="Loader">
                <layers>
                     <DOMLayer name="Actions" color="#9933CC" autoNamed="false">
                          <frames>
@@ -175,6 +188,9 @@ function startClicked(event:MouseEvent):void
                                              <transformationPoint>
                                                   <Point y="15"/>
                                              </transformationPoint>
+                                             <filters>
+                                                  <DropShadowFilter distance="1"/>
+                                             </filters>
                                         </DOMSymbolInstance>
                                         <DOMSymbolInstance libraryItemName="Parts/left" name="control_left">
                                              <matrix>
@@ -183,6 +199,9 @@ function startClicked(event:MouseEvent):void
                                              <transformationPoint>
                                                   <Point x="-15"/>
                                              </transformationPoint>
+                                             <filters>
+                                                  <DropShadowFilter distance="1"/>
+                                             </filters>
                                         </DOMSymbolInstance>
                                         <DOMSymbolInstance libraryItemName="Parts/right" name="control_right" centerPoint3DX="103" centerPoint3DY="350">
                                              <matrix>
@@ -191,6 +210,9 @@ function startClicked(event:MouseEvent):void
                                              <transformationPoint>
                                                   <Point x="15"/>
                                              </transformationPoint>
+                                             <filters>
+                                                  <DropShadowFilter distance="1"/>
+                                             </filters>
                                         </DOMSymbolInstance>
                                         <DOMSymbolInstance libraryItemName="Parts/up" name="control_up" centerPoint3DX="61" centerPoint3DY="323">
                                              <matrix>
@@ -199,6 +221,9 @@ function startClicked(event:MouseEvent):void
                                              <transformationPoint>
                                                   <Point y="-15"/>
                                              </transformationPoint>
+                                             <filters>
+                                                  <DropShadowFilter distance="1"/>
+                                             </filters>
                                         </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
@@ -216,11 +241,14 @@ function startClicked(event:MouseEvent):void
                                                   <Point x="-0.1" y="0.4"/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
-                                        <DOMBitmapInstance name="" referenceID="" selected="true" libraryItemName="card.png">
+                                        <DOMSymbolInstance libraryItemName="item" name="item" selected="true">
                                              <matrix>
                                                   <Matrix tx="28" ty="10"/>
                                              </matrix>
-                                        </DOMBitmapInstance>
+                                             <transformationPoint>
+                                                  <Point x="32" y="32"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
                          </frames>
@@ -241,6 +269,68 @@ function startClicked(event:MouseEvent):void
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
+                    <DOMLayer name="Points" color="#4FFF4F" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="points" name="">
+                                             <matrix>
+                                                  <Matrix a="0.659255981445312" d="0.5" tx="405" ty="32"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <DropShadowFilter distance="1"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="navigation" name="" centerPoint3DX="520.05" centerPoint3DY="29.9">
+                                             <matrix>
+                                                  <Matrix a="0.363250732421875" d="0.362396240234375" tx="520" ty="29.75"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="-0.1" y="0.4"/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <DropShadowFilter distance="1"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                        <DOMStaticText width="36" height="51" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="502" ty="2"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>$</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" aliasText="false" rotation="true" lineSpacing="3.15" size="42" bitmapSize="840" face="Verdana" fillColor="#FFFFFF"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                             <filters>
+                                                  <DropShadowFilter distance="1"/>
+                                             </filters>
+                                        </DOMStaticText>
+                                        <DOMDynamicText name="points" width="148.95" height="17" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="328" ty="24.5"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>0</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="right" aliasText="false" rotation="true" lineSpacing="3.15" size="14" bitmapSize="280" face="Verdana" fillColor="#FFFFFF"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                             <filters>
+                                                  <DropShadowFilter distance="1"/>
+                                             </filters>
+                                        </DOMDynamicText>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
                     <DOMLayer name="Bar" color="#4FFF4F" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
@@ -257,170 +347,181 @@ function startClicked(event:MouseEvent):void
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
+                    <DOMLayer name="You" color="#9933CC" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
                     <DOMLayer name="Worker" color="#9933CC" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Worker/worker" name="" centerPoint3DX="455" centerPoint3DY="99">
+                                        <DOMSymbolInstance libraryItemName="Worker/worker" name="" centerPoint3DX="452" centerPoint3DY="125">
                                              <matrix>
-                                                  <Matrix a="0.387603759765625" d="0.387496948242188" tx="455" ty="99"/>
+                                                  <Matrix a="0.387603759765625" d="0.387496948242188" tx="452" ty="125"/>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point/>
                                              </transformationPoint>
                                              <filters>
-                                                  <BlurFilter blurX="3" blurY="3" quality="3"/>
+                                                  <DropShadowFilter distance="1"/>
                                              </filters>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="Worker/worker" name="" centerPoint3DX="311.5" centerPoint3DY="99">
+                                        <DOMSymbolInstance libraryItemName="Worker/worker" name="" centerPoint3DX="308.5" centerPoint3DY="125">
                                              <matrix>
-                                                  <Matrix a="0.387603759765625" d="0.387115478515625" tx="311.5" ty="99"/>
+                                                  <Matrix a="0.387603759765625" d="0.387115478515625" tx="308.5" ty="125"/>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point/>
                                              </transformationPoint>
                                              <filters>
-                                                  <BlurFilter blurX="3" blurY="3" quality="3"/>
+                                                  <DropShadowFilter distance="1"/>
                                              </filters>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="Worker/worker" name="" centerPoint3DX="168" centerPoint3DY="99">
+                                        <DOMSymbolInstance libraryItemName="Worker/worker" name="" centerPoint3DX="165" centerPoint3DY="125">
                                              <matrix>
-                                                  <Matrix a="0.387603759765625" d="0.3873291015625" tx="168" ty="99"/>
+                                                  <Matrix a="0.387603759765625" d="0.3873291015625" tx="165" ty="125"/>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point/>
                                              </transformationPoint>
                                              <filters>
-                                                  <BlurFilter blurX="3" blurY="3" quality="3"/>
+                                                  <DropShadowFilter distance="1"/>
                                              </filters>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="Worker/worker" name="" centerPoint3DX="383.25" centerPoint3DY="99">
+                                        <DOMSymbolInstance libraryItemName="Worker/worker" name="" centerPoint3DX="380.25" centerPoint3DY="125">
                                              <matrix>
-                                                  <Matrix a="0.387603759765625" d="0.3873291015625" tx="383.25" ty="99"/>
+                                                  <Matrix a="0.387603759765625" d="0.3873291015625" tx="380.25" ty="125"/>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point/>
                                              </transformationPoint>
                                              <filters>
-                                                  <BlurFilter blurX="3" blurY="3" quality="3"/>
+                                                  <DropShadowFilter distance="1"/>
                                              </filters>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="Worker/worker" name="" centerPoint3DX="239.75" centerPoint3DY="99">
+                                        <DOMSymbolInstance libraryItemName="Worker/worker" name="" centerPoint3DX="236.75" centerPoint3DY="125">
                                              <matrix>
-                                                  <Matrix a="0.387603759765625" d="0.38714599609375" tx="239.75" ty="99"/>
-                                             </matrix>
-                                             <transformationPoint>
-                                                  <Point y="-0.1"/>
-                                             </transformationPoint>
-                                             <filters>
-                                                  <BlurFilter blurX="3" blurY="3" quality="3"/>
-                                             </filters>
-                                        </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="Worker/worker" name="" centerPoint3DX="455.25" centerPoint3DY="154.25">
-                                             <matrix>
-                                                  <Matrix a="0.387603759765625" d="0.387496948242188" tx="455.25" ty="154.25"/>
-                                             </matrix>
-                                             <transformationPoint>
-                                                  <Point/>
-                                             </transformationPoint>
-                                             <filters>
-                                                  <BlurFilter blurX="2" blurY="2" quality="3"/>
-                                             </filters>
-                                        </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="Worker/worker" name="" centerPoint3DX="311.75" centerPoint3DY="154.25">
-                                             <matrix>
-                                                  <Matrix a="0.387603759765625" d="0.387115478515625" tx="311.75" ty="154.25"/>
-                                             </matrix>
-                                             <transformationPoint>
-                                                  <Point/>
-                                             </transformationPoint>
-                                             <filters>
-                                                  <BlurFilter blurX="2" blurY="2" quality="3"/>
-                                             </filters>
-                                        </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="Worker/worker" name="" centerPoint3DX="168.25" centerPoint3DY="154.25">
-                                             <matrix>
-                                                  <Matrix a="0.387603759765625" d="0.3873291015625" tx="168.25" ty="154.25"/>
-                                             </matrix>
-                                             <transformationPoint>
-                                                  <Point/>
-                                             </transformationPoint>
-                                             <filters>
-                                                  <BlurFilter blurX="2" blurY="2" quality="3"/>
-                                             </filters>
-                                        </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="Worker/worker" name="" centerPoint3DX="383.5" centerPoint3DY="154.25">
-                                             <matrix>
-                                                  <Matrix a="0.387603759765625" d="0.3873291015625" tx="383.5" ty="154.25"/>
-                                             </matrix>
-                                             <transformationPoint>
-                                                  <Point/>
-                                             </transformationPoint>
-                                             <filters>
-                                                  <BlurFilter blurX="2" blurY="2" quality="3"/>
-                                             </filters>
-                                        </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="Worker/worker" name="" centerPoint3DX="240" centerPoint3DY="154.25">
-                                             <matrix>
-                                                  <Matrix a="0.387603759765625" d="0.38714599609375" tx="240" ty="154.25"/>
+                                                  <Matrix a="0.387603759765625" d="0.38714599609375" tx="236.75" ty="125"/>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point y="-0.15"/>
                                              </transformationPoint>
                                              <filters>
-                                                  <BlurFilter blurX="2" blurY="2" quality="3"/>
+                                                  <DropShadowFilter distance="1"/>
                                              </filters>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="Worker/worker" name="" centerPoint3DX="453.5" centerPoint3DY="209.5">
+                                        <DOMSymbolInstance libraryItemName="Worker/worker" name="" centerPoint3DX="452.25" centerPoint3DY="180.25">
                                              <matrix>
-                                                  <Matrix a="0.387603759765625" d="0.387496948242188" tx="453.5" ty="209.5"/>
+                                                  <Matrix a="0.387603759765625" d="0.387496948242188" tx="452.25" ty="180.25"/>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point/>
                                              </transformationPoint>
                                              <filters>
-                                                  <BlurFilter blurX="1" blurY="1" quality="3"/>
+                                                  <DropShadowFilter distance="1"/>
                                              </filters>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="Worker/worker" name="" centerPoint3DX="310" centerPoint3DY="209.5">
+                                        <DOMSymbolInstance libraryItemName="Worker/worker" name="" centerPoint3DX="308.75" centerPoint3DY="180.25">
                                              <matrix>
-                                                  <Matrix a="0.387603759765625" d="0.387115478515625" tx="310" ty="209.5"/>
-                                             </matrix>
-                                             <transformationPoint>
-                                                  <Point/>
-                                             </transformationPoint>
-                                        </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="Worker/worker" name="" centerPoint3DX="166.5" centerPoint3DY="209.5">
-                                             <matrix>
-                                                  <Matrix a="0.387603759765625" d="0.3873291015625" tx="166.5" ty="209.5"/>
+                                                  <Matrix a="0.387603759765625" d="0.387115478515625" tx="308.75" ty="180.25"/>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point/>
                                              </transformationPoint>
                                              <filters>
-                                                  <BlurFilter blurX="1" blurY="1" quality="3"/>
+                                                  <DropShadowFilter distance="1"/>
                                              </filters>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="Worker/worker" name="" centerPoint3DX="381.75" centerPoint3DY="209.5">
+                                        <DOMSymbolInstance libraryItemName="Worker/worker" name="" centerPoint3DX="165.25" centerPoint3DY="180.25">
                                              <matrix>
-                                                  <Matrix a="0.387603759765625" d="0.3873291015625" tx="381.75" ty="209.5"/>
+                                                  <Matrix a="0.387603759765625" d="0.3873291015625" tx="165.25" ty="180.25"/>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point/>
                                              </transformationPoint>
                                              <filters>
-                                                  <BlurFilter blurX="1" blurY="1" quality="3"/>
+                                                  <DropShadowFilter distance="1"/>
                                              </filters>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="Worker/worker" name="" centerPoint3DX="238.25" centerPoint3DY="209.5">
+                                        <DOMSymbolInstance libraryItemName="Worker/worker" name="" centerPoint3DX="380.5" centerPoint3DY="180.25">
                                              <matrix>
-                                                  <Matrix a="0.387603759765625" d="0.38714599609375" tx="238.25" ty="209.5"/>
+                                                  <Matrix a="0.387603759765625" d="0.3873291015625" tx="380.5" ty="180.25"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <DropShadowFilter distance="1"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Worker/worker" name="" centerPoint3DX="237" centerPoint3DY="180.25">
+                                             <matrix>
+                                                  <Matrix a="0.387603759765625" d="0.38714599609375" tx="237" ty="180.25"/>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point y="-0.15"/>
                                              </transformationPoint>
                                              <filters>
+                                                  <DropShadowFilter distance="1"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Worker/worker" name="" centerPoint3DX="450.5" centerPoint3DY="235.5">
+                                             <matrix>
+                                                  <Matrix a="0.387603759765625" d="0.387496948242188" tx="450.5" ty="235.5"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
                                                   <BlurFilter blurX="1" blurY="1" quality="3"/>
+                                                  <DropShadowFilter distance="1"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Worker/worker" name="" centerPoint3DX="307" centerPoint3DY="235.5">
+                                             <matrix>
+                                                  <Matrix a="0.387603759765625" d="0.387115478515625" tx="307" ty="235.5"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <DropShadowFilter distance="1"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Worker/worker" name="" centerPoint3DX="163.5" centerPoint3DY="235.5">
+                                             <matrix>
+                                                  <Matrix a="0.387603759765625" d="0.3873291015625" tx="163.5" ty="235.5"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <DropShadowFilter distance="1"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Worker/worker" name="" centerPoint3DX="378.75" centerPoint3DY="235.5">
+                                             <matrix>
+                                                  <Matrix a="0.387603759765625" d="0.3873291015625" tx="378.75" ty="235.5"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <DropShadowFilter distance="1"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Worker/worker" name="" centerPoint3DX="235.25" centerPoint3DY="235.5">
+                                             <matrix>
+                                                  <Matrix a="0.387603759765625" d="0.38714599609375" tx="235.25" ty="235.5"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point y="-0.15"/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <DropShadowFilter distance="1"/>
                                              </filters>
                                         </DOMSymbolInstance>
                                         <DOMSymbolInstance libraryItemName="Worker/worker" name="you" centerPoint3DX="310" centerPoint3DY="239">
@@ -430,7 +531,19 @@ function startClicked(event:MouseEvent):void
                                              <transformationPoint>
                                                   <Point/>
                                              </transformationPoint>
+                                             <filters>
+                                                  <DropShadowFilter distance="1"/>
+                                             </filters>
                                         </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Background" color="#4FFF4F" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMBitmapInstance name="" referenceID="" libraryItemName="factory_floor_with_wall.png"/>
                                    </elements>
                               </DOMFrame>
                          </frames>
@@ -760,25 +873,25 @@ snd.play();]]></script>
      </persistentData>
      <PrinterSettings platform="macintosh"/>
      <publishHistory>
-          <PublishItem publishSize="429210" publishTime="1304076200"/>
-          <PublishItem publishSize="432515" publishTime="1304075827"/>
-          <PublishItem publishSize="432515" publishTime="1304075796"/>
-          <PublishItem publishSize="432516" publishTime="1304075725"/>
-          <PublishItem publishSize="432440" publishTime="1304075294"/>
-          <PublishItem publishSize="432440" publishTime="1304074954"/>
-          <PublishItem publishSize="432426" publishTime="1304074923"/>
-          <PublishItem publishSize="432419" publishTime="1304074913"/>
-          <PublishItem publishSize="432329" publishTime="1304074744"/>
-          <PublishItem publishSize="426704" publishTime="1304074649"/>
-          <PublishItem publishSize="426684" publishTime="1304074508"/>
-          <PublishItem publishSize="426688" publishTime="1304074497"/>
-          <PublishItem publishSize="426688" publishTime="1304074483"/>
-          <PublishItem publishSize="426398" publishTime="1304074164"/>
-          <PublishItem publishSize="426392" publishTime="1304074148"/>
-          <PublishItem publishSize="426031" publishTime="1304017673"/>
-          <PublishItem publishSize="426031" publishTime="1304017662"/>
-          <PublishItem publishSize="427186" publishTime="1304017569"/>
-          <PublishItem publishSize="427186" publishTime="1304017551"/>
-          <PublishItem publishSize="424445" publishTime="1304017537"/>
+          <PublishItem publishSize="481894" publishTime="1304337438"/>
+          <PublishItem publishSize="481898" publishTime="1304337404"/>
+          <PublishItem publishSize="478746" publishTime="1304337385"/>
+          <PublishItem publishSize="478746" publishTime="1304337368"/>
+          <PublishItem publishSize="481887" publishTime="1304337292"/>
+          <PublishItem publishSize="481883" publishTime="1304337193"/>
+          <PublishItem publishSize="478746" publishTime="1304336985"/>
+          <PublishItem publishSize="478746" publishTime="1304336968"/>
+          <PublishItem publishSize="481855" publishTime="1304336523"/>
+          <PublishItem publishSize="481855" publishTime="1304336515"/>
+          <PublishItem publishSize="478746" publishTime="1304336501"/>
+          <PublishItem publishSize="478746" publishTime="1304336490"/>
+          <PublishItem publishSize="477517" publishTime="1304334645"/>
+          <PublishItem publishSize="474446" publishTime="1304334622"/>
+          <PublishItem publishSize="475911" publishTime="1304334517"/>
+          <PublishItem publishSize="475948" publishTime="1304334416"/>
+          <PublishItem publishSize="475927" publishTime="1304334361"/>
+          <PublishItem publishSize="475748" publishTime="1304290258"/>
+          <PublishItem publishSize="475749" publishTime="1304290163"/>
+          <PublishItem publishSize="475749" publishTime="1304290154"/>
      </publishHistory>
 </DOMDocument>
