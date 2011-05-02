@@ -1,4 +1,4 @@
-<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#002E45" currentTimeline="3" xflVersion="2.0" creatorInfo="Adobe Flash Professional CS5" platform="Macintosh" versionInfo="Saved by Adobe Flash Macintosh 11.0 build 489" majorVersion="11" buildNumber="489" gridSnapTo="true" viewAngle3D="10" nextSceneIdentifier="5" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false">
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#002E45" currentTimeline="2" xflVersion="2.0" creatorInfo="Adobe Flash Professional CS5" platform="Macintosh" versionInfo="Saved by Adobe Flash Macintosh 11.0 build 489" majorVersion="11" buildNumber="489" gridSnapTo="true" viewAngle3D="10" nextSceneIdentifier="5" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false">
      <folders>
           <DOMFolderItem name="Items" itemID="4dbe91f8-000004a1"/>
           <DOMFolderItem name="Logos" itemID="4db99f38-00000289"/>
@@ -14,6 +14,8 @@
           <DOMBitmapItem name="Items/camera.png" itemID="4dbe9764-000004dd" sourceExternalFilepath="./LIBRARY/Items/camera.png" sourceLastImported="1304336225" sourcePlatform="macintosh" externalFileSize="6454" originalCompressionType="lossless" quality="50" href="Items/camera.png" bitmapDataHRef="M 20 1304334881.dat" frameRight="1280" frameBottom="1280"/>
           <DOMBitmapItem name="Items/card.png" itemID="4dbe9321-000004cf" sourceExternalFilepath="./LIBRARY/Items/card.png" sourceLastImported="1304335134" sourcePlatform="macintosh" externalFileSize="8403" originalCompressionType="lossless" quality="50" href="Items/card.png" bitmapDataHRef="M 17 1304074718.dat" frameRight="1280" frameBottom="1280"/>
           <DOMSoundItem name="Sounds/click" itemID="4dba9fa2-000003ae" linkageExportForAS="true" linkageClassName="ClickSound" sourceExternalFilepath="./LIBRARY/Sounds/click.mp3" sourceLastImported="1304076186" sourcePlatform="macintosh" externalFileSize="7572" href="Sounds/click.mp3" soundDataHRef="M 16 1303904149.dat" format="44kHz 16bit Mono" sampleCount="20736" exportFormat="1" exportBits="7" dataLength="7524" exportNative="true" cachedSampleCount="2592"/>
+          <DOMBitmapItem name="Crystal_Clear_action_bookmark_Silver.png" itemID="4dbf0528-00000697" sourceExternalFilepath="./LIBRARY/Crystal_Clear_action_bookmark_Silver.png" sourceLastImported="1304364284" sourcePlatform="macintosh" externalFileSize="7656" originalCompressionType="lossless" quality="50" href="Crystal_Clear_action_bookmark_Silver.png" bitmapDataHRef="M 26 1304364274.dat" frameRight="1280" frameBottom="1280"/>
+          <DOMBitmapItem name="Crystal_Clear_action_bookmark.png" itemID="4dbf04db-00000691" sourceExternalFilepath="./LIBRARY/Crystal_Clear_action_bookmark.png" sourceLastImported="1304364210" sourcePlatform="macintosh" externalFileSize="7446" originalCompressionType="lossless" quality="50" href="Crystal_Clear_action_bookmark.png" bitmapDataHRef="M 25 1304364181.dat" frameRight="1280" frameBottom="1280"/>
           <DOMBitmapItem name="Worker/desk.png" itemID="4dba9fa2-000003af" sourceExternalFilepath="./LIBRARY/Worker/desk.png" sourceLastImported="1304076186" sourcePlatform="macintosh" externalFileSize="18191" originalCompressionType="lossless" quality="50" href="Worker/desk.png" bitmapDataHRef="M 14 1303902493.dat" frameRight="2560" frameBottom="2560"/>
           <DOMBitmapItem name="Parts/down.png" itemID="4dba9fa2-000003b0" sourceExternalFilepath="./LIBRARY/Parts/down.png" sourceLastImported="1304076186" sourcePlatform="macintosh" externalFileSize="1253" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Parts/down.png" bitmapDataHRef="M 1 1301004257.dat" frameRight="600" frameBottom="600"/>
           <DOMBitmapItem name="factory_floor_with_wall.png" itemID="4dbd54a3-000002ab" sourceExternalFilepath="./LIBRARY/factory_floor_with_wall.png" sourceLastImported="1304196552" sourcePlatform="macintosh" externalFileSize="149671" originalCompressionType="lossless" quality="50" href="factory_floor_with_wall.png" bitmapDataHRef="M 18 1304253509.dat" frameRight="11000" frameBottom="8000"/>
@@ -230,7 +232,7 @@ function startClicked(event:MouseEvent):void
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Item" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
+                    <DOMLayer name="Item" color="#4FFF4F" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
@@ -296,22 +298,6 @@ function startClicked(event:MouseEvent):void
                                                   <DropShadowFilter distance="1"/>
                                              </filters>
                                         </DOMSymbolInstance>
-                                        <DOMStaticText width="36" height="51" isSelectable="false">
-                                             <matrix>
-                                                  <Matrix tx="502" ty="2"/>
-                                             </matrix>
-                                             <textRuns>
-                                                  <DOMTextRun>
-                                                       <characters>$</characters>
-                                                       <textAttrs>
-                                                            <DOMTextAttrs alignment="center" aliasText="false" rotation="true" lineSpacing="3.15" size="42" bitmapSize="840" face="Verdana" fillColor="#FFFFFF"/>
-                                                       </textAttrs>
-                                                  </DOMTextRun>
-                                             </textRuns>
-                                             <filters>
-                                                  <DropShadowFilter distance="1"/>
-                                             </filters>
-                                        </DOMStaticText>
                                         <DOMDynamicText name="points" width="148.95" height="17" isSelectable="false">
                                              <matrix>
                                                   <Matrix tx="328" ty="24.5"/>
@@ -328,6 +314,11 @@ function startClicked(event:MouseEvent):void
                                                   <DropShadowFilter distance="1"/>
                                              </filters>
                                         </DOMDynamicText>
+                                        <DOMBitmapInstance name="" referenceID="" libraryItemName="Crystal_Clear_action_bookmark_Silver.png">
+                                             <matrix>
+                                                  <Matrix tx="489" ty="-3"/>
+                                             </matrix>
+                                        </DOMBitmapInstance>
                                    </elements>
                               </DOMFrame>
                          </frames>
@@ -348,10 +339,22 @@ function startClicked(event:MouseEvent):void
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="You" color="#9933CC" autoNamed="false">
+                    <DOMLayer name="You" color="#9933CC" current="true" isSelected="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
-                                   <elements/>
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Worker/worker" name="you" centerPoint3DX="310" centerPoint3DY="239">
+                                             <matrix>
+                                                  <Matrix tx="310" ty="239"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <DropShadowFilter distance="1"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                   </elements>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
@@ -525,17 +528,6 @@ function startClicked(event:MouseEvent):void
                                                   <DropShadowFilter distance="1"/>
                                              </filters>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="Worker/worker" name="you" centerPoint3DX="310" centerPoint3DY="239">
-                                             <matrix>
-                                                  <Matrix tx="310" ty="239"/>
-                                             </matrix>
-                                             <transformationPoint>
-                                                  <Point/>
-                                             </transformationPoint>
-                                             <filters>
-                                                  <DropShadowFilter distance="1"/>
-                                             </filters>
-                                        </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
                          </frames>
@@ -568,12 +560,21 @@ snd.play();]]></script>
           </DOMTimeline>
      </timelines>
      <timelines>
-          <DOMTimeline name="Intro" currentFrame="74">
+          <DOMTimeline name="Intro" currentFrame="25">
                <layers>
                     <DOMLayer name="Buttons" color="#FF800A" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="24" keyMode="9728">
-                                   <elements/>
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="next" name="frame1" symbolType="button">
+                                             <matrix>
+                                                  <Matrix tx="472" ty="342"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="24" y="24"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
                               </DOMFrame>
                               <DOMFrame index="24" keyMode="9728">
                                    <elements>
@@ -589,7 +590,7 @@ snd.play();]]></script>
                               </DOMFrame>
                               <DOMFrame index="25" duration="24" name="frame2" labelType="name" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="next" name="frame2" symbolType="button">
+                                        <DOMSymbolInstance libraryItemName="next" name="frame3" symbolType="button">
                                              <matrix>
                                                   <Matrix tx="472" ty="342"/>
                                              </matrix>
@@ -613,7 +614,7 @@ snd.play();]]></script>
                               </DOMFrame>
                               <DOMFrame index="50" duration="24" name="frame3" labelType="name" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="next" name="frame3" symbolType="button">
+                                        <DOMSymbolInstance libraryItemName="next" name="frame4" symbolType="button">
                                              <matrix>
                                                   <Matrix tx="472" ty="342"/>
                                              </matrix>
@@ -623,7 +624,7 @@ snd.play();]]></script>
                                         </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
-                              <DOMFrame index="74" keyMode="9728">
+                              <DOMFrame index="74" name="frame4" labelType="name" keyMode="9728">
                                    <elements>
                                         <DOMSymbolInstance libraryItemName="next" name="startGame" symbolType="button">
                                              <matrix>
@@ -637,12 +638,12 @@ snd.play();]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Text" color="#4FFF4F" current="true" isSelected="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="Text" color="#4FFF4F" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="25" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="2097151" keyMode="8195">
                                    <motionObjectXML><AnimationCore TimeScale="24000" Version="1" duration="25000"><TimeMap strength="100" type="Quadratic"/><metadata><names><name langID="en_GB" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.500091" xformPtYOffsetPct="0.500125" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0.05" next="0,0.05" previous="0,0.05" roving="0" timevalue="24000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0.05" next="0,0.05" previous="0,0.05" roving="0" timevalue="24000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property TimeMapIndex="0" enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,5" next="0,5" previous="0,5" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="22000"/></Property><Property TimeMapIndex="0" enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,5" next="0,5" previous="0,5" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="22000"/></Property></PropertyContainer><PropertyContainer id="Colors"><PropertyContainer id="Alpha_ColorXform"><Property TimeMapIndex="0" enabled="1" id="Alpha_Amount" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,77" next="0,77" previous="-2168,77" roving="0" timevalue="4000"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="17000"/></Property></PropertyContainer></PropertyContainer><PropertyContainer id="Filters"><PropertyContainer id="Blur_Filter"><Property TimeMapIndex="0" enabled="1" id="Blur_BlurX" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,15" next="0,15" previous="0,15" roving="0" timevalue="0"/><Keyframe anchor="0,5" next="0,5" previous="-2540,5" roving="0" timevalue="4000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="17000"/></Property><Property TimeMapIndex="0" enabled="1" id="Blur_BlurY" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,15" next="0,15" previous="0,15" roving="0" timevalue="0"/><Keyframe anchor="0,5" next="0,5" previous="-2695,5" roving="0" timevalue="4000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="17000"/></Property><Property enabled="1" id="Blur_Quality" readonly="0" value="3" visible="1"/></PropertyContainer><PropertyContainer id="DropShadow_Filter"><Property enabled="1" id="DropShadow_BlurX" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,5" next="0,5" previous="0,5" roving="0" timevalue="0"/></Property><Property enabled="1" id="DropShadow_BlurY" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,5" next="0,5" previous="0,5" roving="0" timevalue="0"/></Property><Property enabled="1" id="DropShadow_Strength" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/></Property><Property enabled="1" id="DropShadow_Quality" readonly="0" value="1" visible="1"/><Property enabled="1" id="DropShadow_Angle" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,45" next="0,45" previous="0,45" roving="0" timevalue="0"/></Property><Property enabled="1" id="DropShadow_Distance" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,5" next="0,5" previous="0,5" roving="0" timevalue="0"/></Property><Property enabled="1" id="DropShadow_Knockout" readonly="0" value="0" visible="1"/><Property enabled="1" id="DropShadow_InnerShadow" readonly="0" value="0" visible="1"/><Property enabled="1" id="DropShadow_HideObject" readonly="0" value="0" visible="1"/><Property enabled="1" id="DropShadow_Color" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe roving="0" timevalue="0" value="0x000000ff"/></Property></PropertyContainer></PropertyContainer></PropertyContainer></AnimationCore></motionObjectXML>
                                    <elements>
-                                        <DOMTLFText name="" selected="true" left="-14481" right="-3481" bottom="8000" centerPoint3DX="236.5" centerPoint3DY="552.9" centerPoint3DZ="-439.25">
+                                        <DOMTLFText name="" left="-14481" right="-3481" bottom="8000" centerPoint3DX="236.5" centerPoint3DY="552.9" centerPoint3DZ="-439.25">
                                              <matrix>
                                                   <Matrix a="0.04998779296875" d="0.04998779296875" tx="297.45" ty="190"/>
                                              </matrix>
@@ -652,7 +653,7 @@ snd.play();]]></script>
                                              <tlfFonts>
                                                   <TLFFont platformName="Skia" psName="Skia-Regular"/>
                                              </tlfFonts>
-                                             <markup><tlfTextObject type="Paragraph" editPolicy="readOnly" columnCount="1" columnGap="20" verticalAlign="top" firstBaselineOffset="auto" paddingLeft="2" paddingTop="2" paddingRight="2" paddingBottom="2" background="false" backgroundColor="#ffffff" backgroundAlpha="1" border="false" borderColor="#000000" borderAlpha="1" borderWidth="1" paddingLock="false" multiline="true" antiAliasType="advanced" embedFonts="true"><TextFlow blockProgression="tb" columnCount="inherit" columnGap="inherit" columnWidth="inherit" lineBreak="toFit" locale="en_GB" paddingBottom="inherit" paddingLeft="inherit" paddingRight="inherit" paddingTop="inherit" verticalAlign="inherit" whiteSpaceCollapse="preserve" xmlns="http://ns.adobe.com/textLayout/2008"><p direction="ltr" paragraphEndIndent="0" paragraphSpaceAfter="0" paragraphSpaceBefore="0" paragraphStartIndent="0" textAlign="center" textAlignLast="justify" textIndent="0" textJustify="interWord" xmlns="http://ns.adobe.com/textLayout/2008"><span color="#ffffff" fontFamily="Skia" fontSize="50" fontStyle="normal" fontWeight="normal" kerning="auto" lineHeight="120%" textAlpha="1" textRotation="auto" trackingRight="0%" xmlns="http://ns.adobe.com/textLayout/2008">Your name is Xiao, you are a worker at the electronic factory Foxconn in China, Shenzhen.</span></p></TextFlow></tlfTextObject></markup>
+                                             <markup><tlfTextObject type="Paragraph" editPolicy="readOnly" columnCount="1" columnGap="20" verticalAlign="top" firstBaselineOffset="auto" paddingLeft="2" paddingTop="2" paddingRight="2" paddingBottom="2" background="false" backgroundColor="#ffffff" backgroundAlpha="1" border="false" borderColor="#000000" borderAlpha="1" borderWidth="1" paddingLock="false" multiline="true" antiAliasType="advanced" embedFonts="true"><TextFlow blockProgression="tb" columnCount="inherit" columnGap="inherit" columnWidth="inherit" lineBreak="toFit" locale="en_GB" paddingBottom="inherit" paddingLeft="inherit" paddingRight="inherit" paddingTop="inherit" verticalAlign="inherit" whiteSpaceCollapse="preserve" xmlns="http://ns.adobe.com/textLayout/2008"><p direction="ltr" paragraphEndIndent="0" paragraphSpaceAfter="0" paragraphSpaceBefore="0" paragraphStartIndent="0" textAlign="center" textAlignLast="justify" textIndent="0" textJustify="interWord"><span color="#ffffff" fontFamily="Skia" fontSize="50" fontStyle="normal" fontWeight="normal" kerning="auto" lineHeight="120%" textAlpha="1" textRotation="auto" trackingRight="0%">Your name is Xiao, you are a worker at the electronic factory Foxconn in China, Shenzhen.</span></p></TextFlow></tlfTextObject></markup>
                                              <filters>
                                                   <BlurFilter blurX="15" blurY="15" quality="3"/>
                                                   <DropShadowFilter/>
@@ -666,7 +667,7 @@ snd.play();]]></script>
                               <DOMFrame index="25" duration="25" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="2097151" keyMode="8195">
                                    <motionObjectXML><AnimationCore TimeScale="24000" Version="1" duration="25000"><TimeMap strength="100" type="Quadratic"/><metadata><names><name langID="en_GB" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.500091" xformPtYOffsetPct="0.500125" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property TimeMapIndex="0" enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,5" next="0,5" previous="0,5" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="22000"/></Property><Property TimeMapIndex="0" enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,5" next="0,5" previous="0,5" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="22000"/></Property></PropertyContainer><PropertyContainer id="Colors"><PropertyContainer id="Alpha_ColorXform"><Property TimeMapIndex="0" enabled="1" id="Alpha_Amount" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,77" next="0,77" previous="-2168,77" roving="0" timevalue="4000"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="17000"/></Property></PropertyContainer></PropertyContainer><PropertyContainer id="Filters"><PropertyContainer id="Blur_Filter"><Property TimeMapIndex="0" enabled="1" id="Blur_BlurX" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,15" next="0,15" previous="0,15" roving="0" timevalue="0"/><Keyframe anchor="0,5" next="0,5" previous="-2540,5" roving="0" timevalue="4000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="17000"/></Property><Property TimeMapIndex="0" enabled="1" id="Blur_BlurY" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,15" next="0,15" previous="0,15" roving="0" timevalue="0"/><Keyframe anchor="0,5" next="0,5" previous="-2695,5" roving="0" timevalue="4000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="17000"/></Property><Property enabled="1" id="Blur_Quality" readonly="0" value="3" visible="1"/></PropertyContainer><PropertyContainer id="DropShadow_Filter"><Property enabled="1" id="DropShadow_BlurX" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,5" next="0,5" previous="0,5" roving="0" timevalue="0"/></Property><Property enabled="1" id="DropShadow_BlurY" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,5" next="0,5" previous="0,5" roving="0" timevalue="0"/></Property><Property enabled="1" id="DropShadow_Strength" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/></Property><Property enabled="1" id="DropShadow_Quality" readonly="0" value="1" visible="1"/><Property enabled="1" id="DropShadow_Angle" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,45" next="0,45" previous="0,45" roving="0" timevalue="0"/></Property><Property enabled="1" id="DropShadow_Distance" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,5" next="0,5" previous="0,5" roving="0" timevalue="0"/></Property><Property enabled="1" id="DropShadow_Knockout" readonly="0" value="0" visible="1"/><Property enabled="1" id="DropShadow_InnerShadow" readonly="0" value="0" visible="1"/><Property enabled="1" id="DropShadow_HideObject" readonly="0" value="0" visible="1"/><Property enabled="1" id="DropShadow_Color" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe roving="0" timevalue="0" value="0x000000ff"/></Property></PropertyContainer></PropertyContainer></PropertyContainer></AnimationCore></motionObjectXML>
                                    <elements>
-                                        <DOMTLFText name="" selected="true" left="-14481" right="-3481" bottom="8000" centerPoint3DX="236.5" centerPoint3DY="552.9" centerPoint3DZ="-439.25">
+                                        <DOMTLFText name="" left="-14481" right="-3481" bottom="8000" centerPoint3DX="236.5" centerPoint3DY="552.9" centerPoint3DZ="-439.25">
                                              <matrix>
                                                   <Matrix a="0.04998779296875" d="0.04998779296875" tx="297.45" ty="190"/>
                                              </matrix>
@@ -676,7 +677,7 @@ snd.play();]]></script>
                                              <tlfFonts>
                                                   <TLFFont platformName="Skia" psName="Skia-Regular"/>
                                              </tlfFonts>
-                                             <markup><tlfTextObject type="Paragraph" editPolicy="readOnly" columnCount="1" columnGap="20" verticalAlign="top" firstBaselineOffset="auto" paddingLeft="2" paddingTop="2" paddingRight="2" paddingBottom="2" background="false" backgroundColor="#ffffff" backgroundAlpha="1" border="false" borderColor="#000000" borderAlpha="1" borderWidth="1" paddingLock="false" multiline="true" antiAliasType="advanced" embedFonts="true"><TextFlow blockProgression="tb" columnCount="inherit" columnGap="inherit" columnWidth="inherit" lineBreak="toFit" locale="en_GB" paddingBottom="inherit" paddingLeft="inherit" paddingRight="inherit" paddingTop="inherit" verticalAlign="inherit" whiteSpaceCollapse="preserve" xmlns="http://ns.adobe.com/textLayout/2008"><p direction="ltr" paragraphEndIndent="0" paragraphSpaceAfter="0" paragraphSpaceBefore="0" paragraphStartIndent="0" textAlign="center" textAlignLast="justify" textIndent="0" textJustify="interWord" xmlns="http://ns.adobe.com/textLayout/2008"><span color="#ffffff" fontFamily="Skia" fontSize="50" fontStyle="normal" fontWeight="normal" kerning="auto" lineHeight="120%" textAlpha="1" textRotation="auto" trackingRight="0%" xmlns="http://ns.adobe.com/textLayout/2008">Your salary is only half of the cost of living which forces you to work overtime, a  lot of overtime!</span></p></TextFlow></tlfTextObject></markup>
+                                             <markup><tlfTextObject type="Paragraph" editPolicy="readOnly" columnCount="1" columnGap="20" verticalAlign="top" firstBaselineOffset="auto" paddingLeft="2" paddingTop="2" paddingRight="2" paddingBottom="2" background="false" backgroundColor="#ffffff" backgroundAlpha="1" border="false" borderColor="#000000" borderAlpha="1" borderWidth="1" paddingLock="false" multiline="true" antiAliasType="advanced" embedFonts="true"><TextFlow blockProgression="tb" columnCount="inherit" columnGap="inherit" columnWidth="inherit" lineBreak="toFit" locale="en_GB" paddingBottom="inherit" paddingLeft="inherit" paddingRight="inherit" paddingTop="inherit" verticalAlign="inherit" whiteSpaceCollapse="preserve" xmlns="http://ns.adobe.com/textLayout/2008"><p direction="ltr" paragraphEndIndent="0" paragraphSpaceAfter="0" paragraphSpaceBefore="0" paragraphStartIndent="0" textAlign="center" textAlignLast="justify" textIndent="0" textJustify="interWord"><span color="#ffffff" fontFamily="Skia" fontSize="50" fontStyle="normal" fontWeight="normal" kerning="auto" lineHeight="120%" textAlpha="1" textRotation="auto" trackingRight="0%">Your salary is only half of the cost of living which forces you to work overtime, a  lot of overtime!</span></p></TextFlow></tlfTextObject></markup>
                                              <filters>
                                                   <BlurFilter blurX="15" blurY="15" quality="3"/>
                                                   <DropShadowFilter/>
@@ -713,34 +714,43 @@ snd.play();]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Actions" color="#9933CC" autoNamed="false">
+                    <DOMLayer name="Actions" color="#9933CC" current="true" isSelected="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="24" keyMode="9728">
-                                   <elements>
-                                        <DOMBitmapInstance name="" referenceID="" libraryItemName="factory_workers_bg.png"/>
-                                   </elements>
-                              </DOMFrame>
-                              <DOMFrame index="24" duration="25" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[stop();
-
-frame2.addEventListener(MouseEvent.CLICK, function(event:MouseEvent):void
-{
-	gotoAndPlay('frame2');
-});]]></script>
+                                        <script><![CDATA[frame1.addEventListener(MouseEvent.CLICK, function(event:MouseEvent):void{	gotoAndPlay('frame2');});]]></script>
                                    </Actionscript>
                                    <elements>
                                         <DOMBitmapInstance name="" referenceID="" libraryItemName="factory_workers_bg.png"/>
                                    </elements>
                               </DOMFrame>
-                              <DOMFrame index="49" duration="25" keyMode="9728">
+                              <DOMFrame index="24" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[stop();
-
-frame3.addEventListener(MouseEvent.CLICK, function(event:MouseEvent):void
-{
-	gotoAndPlay('frame3');
-});]]></script>
+                                        <script><![CDATA[stop();frame2.addEventListener(MouseEvent.CLICK, function(event:MouseEvent):void{	gotoAndPlay('frame2');});]]></script>
+                                   </Actionscript>
+                                   <elements>
+                                        <DOMBitmapInstance name="" referenceID="" libraryItemName="factory_workers_bg.png"/>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="25" duration="24" keyMode="9728">
+                                   <Actionscript>
+                                        <script><![CDATA[frame3.addEventListener(MouseEvent.CLICK, function(event:MouseEvent):void{	gotoAndPlay('frame3');});]]></script>
+                                   </Actionscript>
+                                   <elements>
+                                        <DOMBitmapInstance name="" referenceID="" selected="true" libraryItemName="factory_workers_bg.png"/>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="49" keyMode="9728">
+                                   <Actionscript>
+                                        <script><![CDATA[stop();]]></script>
+                                   </Actionscript>
+                                   <elements>
+                                        <DOMBitmapInstance name="" referenceID="" selected="true" libraryItemName="factory_workers_bg.png"/>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="50" duration="24" keyMode="9728">
+                                   <Actionscript>
+                                        <script><![CDATA[frame4.addEventListener(MouseEvent.CLICK, function(event:MouseEvent):void{	gotoAndPlay('frame4');});]]></script>
                                    </Actionscript>
                                    <elements>
                                         <DOMBitmapInstance name="" referenceID="" libraryItemName="factory_workers_bg.png"/>
@@ -782,7 +792,7 @@ startGame.addEventListener(MouseEvent.CLICK, function(event:MouseEvent):void
                                              <tlfFonts>
                                                   <TLFFont platformName="Skia" psName="Skia-Regular"/>
                                              </tlfFonts>
-                                             <markup><tlfTextObject type="Paragraph" editPolicy="readOnly" columnCount="1" columnGap="20" verticalAlign="top" firstBaselineOffset="auto" paddingLeft="2" paddingTop="2" paddingRight="2" paddingBottom="2" background="false" backgroundColor="#ffffff" backgroundAlpha="1" border="false" borderColor="#000000" borderAlpha="1" borderWidth="1" paddingLock="false" multiline="true" antiAliasType="advanced" embedFonts="true"><TextFlow blockProgression="tb" columnCount="inherit" columnGap="inherit" columnWidth="inherit" lineBreak="toFit" locale="en_GB" paddingBottom="inherit" paddingLeft="inherit" paddingRight="inherit" paddingTop="inherit" verticalAlign="inherit" whiteSpaceCollapse="preserve" xmlns="http://ns.adobe.com/textLayout/2008"><p direction="ltr" paragraphEndIndent="0" paragraphSpaceAfter="0" paragraphSpaceBefore="0" paragraphStartIndent="0" textAlign="center" textAlignLast="justify" textIndent="0" textJustify="interWord" xmlns="http://ns.adobe.com/textLayout/2008"><span color="#ffffff" fontFamily="Skia" fontSize="50" fontStyle="normal" fontWeight="normal" kerning="auto" lineHeight="120%" textAlpha="1" textRotation="auto" trackingRight="0%" xmlns="http://ns.adobe.com/textLayout/2008">You have produced xxx nbr of products and earned yyy score. For a couple of days you have tried out the life of a factory worker in China.</span></p><p direction="ltr" paragraphEndIndent="0" paragraphSpaceAfter="0" paragraphSpaceBefore="0" paragraphStartIndent="0" textAlign="center" textAlignLast="justify" textIndent="0" textJustify="interWord" xmlns="http://ns.adobe.com/textLayout/2008"><span color="#ffffff" fontFamily="Skia" fontSize="50" fontStyle="normal" fontWeight="normal" kerning="auto" lineHeight="120%" textAlpha="1" textRotation="auto" trackingRight="0%" xmlns="http://ns.adobe.com/textLayout/2008"></span></p><p direction="ltr" paragraphEndIndent="0" paragraphSpaceAfter="0" paragraphSpaceBefore="0" paragraphStartIndent="0" textAlign="center" textAlignLast="justify" textIndent="0" textJustify="interWord" xmlns="http://ns.adobe.com/textLayout/2008"><span color="#ffffff" fontFamily="Skia" fontSize="50" fontStyle="normal" fontWeight="normal" kerning="auto" lineHeight="120%" textAlpha="1" textRotation="auto" trackingRight="0%" xmlns="http://ns.adobe.com/textLayout/2008"> (Picture of the posion product) - In the Wintek factory workers used the poisonous chemical n-hexane to clean touch screens. Workers got really sick and a number of them were taken into hospital on October the 26th 2010. Earlier alcohol was used but it was replaced by n-hexane as it evaporates faster and hence can increase the production rate.</span></p><p direction="ltr" paragraphEndIndent="0" paragraphSpaceAfter="0" paragraphSpaceBefore="0" paragraphStartIndent="0" textAlign="center" textAlignLast="justify" textIndent="0" textJustify="interWord" xmlns="http://ns.adobe.com/textLayout/2008"><span color="#ffffff" fontFamily="Skia" fontSize="50" fontStyle="normal" fontWeight="normal" kerning="auto" lineHeight="120%" textAlpha="1" textRotation="auto" trackingRight="0%" xmlns="http://ns.adobe.com/textLayout/2008"></span></p><p direction="ltr" paragraphEndIndent="0" paragraphSpaceAfter="0" paragraphSpaceBefore="0" paragraphStartIndent="0" textAlign="center" textAlignLast="justify" textIndent="0" textJustify="interWord" xmlns="http://ns.adobe.com/textLayout/2008"><span color="#ffffff" fontFamily="Skia" fontSize="50" fontStyle="normal" fontWeight="normal" kerning="auto" lineHeight="120%" textAlpha="1" textRotation="auto" trackingRight="0%" xmlns="http://ns.adobe.com/textLayout/2008">(Picture of the clock) - In the Foxconn factory (which manufactures e.g. iPad) monthly overtime working hours amounts to 120 hours during the peak production time. The local labour law says the maximum is 36 overtime working hours per month. The production target is usually 5000 pieces per day. Although Foxconn claims workers have a 10-minute break every 2 hours, a worker interviewed says there are no breaks in her department at all.</span></p><p direction="ltr" paragraphEndIndent="0" paragraphSpaceAfter="0" paragraphSpaceBefore="0" paragraphStartIndent="0" textAlign="center" textAlignLast="justify" textIndent="0" textJustify="interWord" xmlns="http://ns.adobe.com/textLayout/2008"><span color="#ffffff" fontFamily="Skia" fontSize="50" fontStyle="normal" fontWeight="normal" kerning="auto" lineHeight="120%" textAlpha="1" textRotation="auto" trackingRight="0%" xmlns="http://ns.adobe.com/textLayout/2008"></span></p><p direction="ltr" paragraphEndIndent="0" paragraphSpaceAfter="0" paragraphSpaceBefore="0" paragraphStartIndent="0" textAlign="center" textAlignLast="justify" textIndent="0" textJustify="interWord" xmlns="http://ns.adobe.com/textLayout/2008"><span color="#ffffff" fontFamily="Skia" fontSize="50" fontStyle="normal" fontWeight="normal" kerning="auto" lineHeight="120%" textAlpha="1" textRotation="auto" trackingRight="0%" xmlns="http://ns.adobe.com/textLayout/2008">(Picture of manager) - Harsh treatment from managers is common at the Foxconn factory. Workers are reminded they should obey all instructions by superiors without questioning. Sometimes management sets traps to test the workers. For example management can take away a component of a product. If the worker concerned cannot discover the flaw, he/she will be punished. Public humiliation is a common punishment.</span></p></TextFlow></tlfTextObject></markup>
+                                             <markup><tlfTextObject type="Paragraph" editPolicy="readOnly" columnCount="1" columnGap="20" verticalAlign="top" firstBaselineOffset="auto" paddingLeft="2" paddingTop="2" paddingRight="2" paddingBottom="2" background="false" backgroundColor="#ffffff" backgroundAlpha="1" border="false" borderColor="#000000" borderAlpha="1" borderWidth="1" paddingLock="false" multiline="true" antiAliasType="advanced" embedFonts="true"><TextFlow blockProgression="tb" columnCount="inherit" columnGap="inherit" columnWidth="inherit" lineBreak="toFit" locale="en_GB" paddingBottom="inherit" paddingLeft="inherit" paddingRight="inherit" paddingTop="inherit" verticalAlign="inherit" whiteSpaceCollapse="preserve" xmlns="http://ns.adobe.com/textLayout/2008"><p direction="ltr" paragraphEndIndent="0" paragraphSpaceAfter="0" paragraphSpaceBefore="0" paragraphStartIndent="0" textAlign="center" textAlignLast="justify" textIndent="0" textJustify="interWord"><span color="#ffffff" fontFamily="Skia" fontSize="50" fontStyle="normal" fontWeight="normal" kerning="auto" lineHeight="120%" textAlpha="1" textRotation="auto" trackingRight="0%">You have produced xxx nbr of products and earned yyy score. For a couple of days you have tried out the life of a factory worker in China.</span></p><p direction="ltr" paragraphEndIndent="0" paragraphSpaceAfter="0" paragraphSpaceBefore="0" paragraphStartIndent="0" textAlign="center" textAlignLast="justify" textIndent="0" textJustify="interWord"><span color="#ffffff" fontFamily="Skia" fontSize="50" fontStyle="normal" fontWeight="normal" kerning="auto" lineHeight="120%" textAlpha="1" textRotation="auto" trackingRight="0%"></span></p><p direction="ltr" paragraphEndIndent="0" paragraphSpaceAfter="0" paragraphSpaceBefore="0" paragraphStartIndent="0" textAlign="center" textAlignLast="justify" textIndent="0" textJustify="interWord"><span color="#ffffff" fontFamily="Skia" fontSize="50" fontStyle="normal" fontWeight="normal" kerning="auto" lineHeight="120%" textAlpha="1" textRotation="auto" trackingRight="0%"> (Picture of the posion product) - In the Wintek factory workers used the poisonous chemical n-hexane to clean touch screens. Workers got really sick and a number of them were taken into hospital on October the 26th 2010. Earlier alcohol was used but it was replaced by n-hexane as it evaporates faster and hence can increase the production rate.</span></p><p direction="ltr" paragraphEndIndent="0" paragraphSpaceAfter="0" paragraphSpaceBefore="0" paragraphStartIndent="0" textAlign="center" textAlignLast="justify" textIndent="0" textJustify="interWord"><span color="#ffffff" fontFamily="Skia" fontSize="50" fontStyle="normal" fontWeight="normal" kerning="auto" lineHeight="120%" textAlpha="1" textRotation="auto" trackingRight="0%"></span></p><p direction="ltr" paragraphEndIndent="0" paragraphSpaceAfter="0" paragraphSpaceBefore="0" paragraphStartIndent="0" textAlign="center" textAlignLast="justify" textIndent="0" textJustify="interWord"><span color="#ffffff" fontFamily="Skia" fontSize="50" fontStyle="normal" fontWeight="normal" kerning="auto" lineHeight="120%" textAlpha="1" textRotation="auto" trackingRight="0%">(Picture of the clock) - In the Foxconn factory (which manufactures e.g. iPad) monthly overtime working hours amounts to 120 hours during the peak production time. The local labour law says the maximum is 36 overtime working hours per month. The production target is usually 5000 pieces per day. Although Foxconn claims workers have a 10-minute break every 2 hours, a worker interviewed says there are no breaks in her department at all.</span></p><p direction="ltr" paragraphEndIndent="0" paragraphSpaceAfter="0" paragraphSpaceBefore="0" paragraphStartIndent="0" textAlign="center" textAlignLast="justify" textIndent="0" textJustify="interWord"><span color="#ffffff" fontFamily="Skia" fontSize="50" fontStyle="normal" fontWeight="normal" kerning="auto" lineHeight="120%" textAlpha="1" textRotation="auto" trackingRight="0%"></span></p><p direction="ltr" paragraphEndIndent="0" paragraphSpaceAfter="0" paragraphSpaceBefore="0" paragraphStartIndent="0" textAlign="center" textAlignLast="justify" textIndent="0" textJustify="interWord"><span color="#ffffff" fontFamily="Skia" fontSize="50" fontStyle="normal" fontWeight="normal" kerning="auto" lineHeight="120%" textAlpha="1" textRotation="auto" trackingRight="0%">(Picture of manager) - Harsh treatment from managers is common at the Foxconn factory. Workers are reminded they should obey all instructions by superiors without questioning. Sometimes management sets traps to test the workers. For example management can take away a component of a product. If the worker concerned cannot discover the flaw, he/she will be punished. Public humiliation is a common punishment.</span></p></TextFlow></tlfTextObject></markup>
                                              <filters>
                                                   <DropShadowFilter blurX="3" blurY="3" distance="3" quality="3"/>
                                              </filters>
@@ -1118,25 +1128,25 @@ startGame.addEventListener(MouseEvent.CLICK, function(event:MouseEvent):void
      </persistentData>
      <PrinterSettings platform="macintosh"/>
      <publishHistory>
+          <PublishItem publishSize="717403" publishTime="1304366981"/>
+          <PublishItem publishSize="717292" publishTime="1304366887"/>
+          <PublishItem publishSize="717293" publishTime="1304366867"/>
+          <PublishItem publishSize="717293" publishTime="1304366796"/>
+          <PublishItem publishSize="717362" publishTime="1304366743"/>
+          <PublishItem publishSize="717335" publishTime="1304366710"/>
+          <PublishItem publishSize="717329" publishTime="1304366684"/>
+          <PublishItem publishSize="717329" publishTime="1304366504"/>
+          <PublishItem publishSize="717305" publishTime="1304366462"/>
+          <PublishItem publishSize="717304" publishTime="1304366380"/>
+          <PublishItem publishSize="717304" publishTime="1304366367"/>
+          <PublishItem publishSize="717337" publishTime="1304364303"/>
+          <PublishItem publishSize="717599" publishTime="1304364231"/>
+          <PublishItem publishSize="715604" publishTime="1304360778"/>
+          <PublishItem publishSize="715617" publishTime="1304360729"/>
+          <PublishItem publishSize="715604" publishTime="1304360697"/>
+          <PublishItem publishSize="715591" publishTime="1304360551"/>
+          <PublishItem publishSize="715529" publishTime="1304360432"/>
+          <PublishItem publishSize="715602" publishTime="1304360412"/>
           <PublishItem publishSize="715246" publishTime="1304344127"/>
-          <PublishItem publishSize="715246" publishTime="1304344081"/>
-          <PublishItem publishSize="715247" publishTime="1304344017"/>
-          <PublishItem publishSize="715315" publishTime="1304344000"/>
-          <PublishItem publishSize="715226" publishTime="1304343952"/>
-          <PublishItem publishSize="715235" publishTime="1304343913"/>
-          <PublishItem publishSize="713890" publishTime="1304343127"/>
-          <PublishItem publishSize="709406" publishTime="1304342055"/>
-          <PublishItem publishSize="709398" publishTime="1304342042"/>
-          <PublishItem publishSize="709418" publishTime="1304341962"/>
-          <PublishItem publishSize="709418" publishTime="1304341915"/>
-          <PublishItem publishSize="704268" publishTime="1304340840"/>
-          <PublishItem publishSize="704207" publishTime="1304340783"/>
-          <PublishItem publishSize="708746" publishTime="1304340505"/>
-          <PublishItem publishSize="719212" publishTime="1304340360"/>
-          <PublishItem publishSize="719168" publishTime="1304340232"/>
-          <PublishItem publishSize="719165" publishTime="1304340201"/>
-          <PublishItem publishSize="714404" publishTime="1304339938"/>
-          <PublishItem publishSize="709991" publishTime="1304339872"/>
-          <PublishItem publishSize="709933" publishTime="1304339625"/>
      </publishHistory>
 </DOMDocument>
