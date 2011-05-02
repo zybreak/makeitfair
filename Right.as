@@ -1,1 +1,0 @@
-﻿package  {		public class Right extends Part {						public function Right() {			// constructor code		}	}	}

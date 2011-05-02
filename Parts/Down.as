@@ -1,0 +1,1 @@
+﻿package Parts {	import flash.ui.Keyboard;	public class Down extends Part {		public function Down() {			super(Keyboard.DOWN);		}	}}

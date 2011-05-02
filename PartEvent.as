@@ -1,0 +1,1 @@
+﻿package  {	import flash.events.Event;		public class PartEvent extends Event {				public static const HIT:String = 'PartHit';		public static const MISS:String = 'PartMiss';		public function PartEvent(command:String) {			super(command);		}	}}

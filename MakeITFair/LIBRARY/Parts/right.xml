@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Parts/right" itemID="4d8cbc38-00000a02" linkageExportForAS="true" linkageClassName="Right" sourceLibraryItemHRef="Symbol 1" lastModified="1303912582">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Parts/right" itemID="4d8cbc38-00000a02" linkageExportForAS="true" linkageClassName="Parts.Right" sourceLibraryItemHRef="Symbol 1" lastModified="1304345625">
   <timeline>
     <DOMTimeline name="right">
       <layers>

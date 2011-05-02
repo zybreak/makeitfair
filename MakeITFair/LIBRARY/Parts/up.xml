@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Parts/up" itemID="4d8cbc4d-00000a0a" linkageExportForAS="true" linkageClassName="Up" sourceLibraryItemHRef="Symbol 1" lastModified="1303903389">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Parts/up" itemID="4d8cbc4d-00000a0a" linkageExportForAS="true" linkageClassName="Parts.Up" sourceLibraryItemHRef="Symbol 1" lastModified="1304345611">
   <timeline>
     <DOMTimeline name="up">
       <layers>

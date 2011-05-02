@@ -1,1 +1,1 @@
-﻿package Items{	public class CardItem extends Item	{		public function CardItem()		{			super('card', [			new Down(),			new Left(),			new Up(),			new Right()]);		}	}}
+﻿package Items{	import Parts.*;	public class CardItem extends Item {		public function CardItem() {			super('card', [			new Down(),			new Left(),			new Up(),			new Right()]);		}	}}
