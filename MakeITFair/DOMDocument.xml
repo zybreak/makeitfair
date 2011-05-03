@@ -1,4 +1,4 @@
-<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#002E45" currentTimeline="1" xflVersion="2.0" creatorInfo="Adobe Flash Professional CS5" platform="Macintosh" versionInfo="Saved by Adobe Flash Macintosh 11.0 build 489" majorVersion="11" buildNumber="489" gridSnapTo="true" viewAngle3D="10" nextSceneIdentifier="5" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false">
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#002E45" currentTimeline="3" xflVersion="2.0" creatorInfo="Adobe Flash Professional CS5" platform="Macintosh" versionInfo="Saved by Adobe Flash Macintosh 11.0 build 489" majorVersion="11" buildNumber="489" gridSnapTo="true" viewAngle3D="10" nextSceneIdentifier="6" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false">
      <folders>
           <DOMFolderItem name="Items" itemID="4dbe91f8-000004a1"/>
           <DOMFolderItem name="Logos" itemID="4db99f38-00000289"/>
@@ -7,6 +7,7 @@
           <DOMFolderItem name="Worker" itemID="4dba9f1a-000003a3"/>
      </folders>
      <fonts>
+          <DOMFontItem name="Font 2" itemID="4dbfec2c-000008fd" font="Skia-Regular" size="0" id="2" sourceLastImported="1304423468" embedRanges="1|2|3|4"/>
           <DOMFontItem name="Font 1" itemID="4dbe90d1-00000449" font="Verdana" size="0" id="1" sourceLastImported="1304334545" embedRanges="3"/>
      </fonts>
      <media>
@@ -14,7 +15,7 @@
           <DOMBitmapItem name="Items/camera.png" itemID="4dbe9764-000004dd" sourceExternalFilepath="./LIBRARY/Items/camera.png" sourceLastImported="1304336225" sourcePlatform="macintosh" externalFileSize="6454" originalCompressionType="lossless" quality="50" href="Items/camera.png" bitmapDataHRef="M 20 1304334881.dat" frameRight="1280" frameBottom="1280"/>
           <DOMBitmapItem name="Items/card.png" itemID="4dbe9321-000004cf" sourceExternalFilepath="./LIBRARY/Items/card.png" sourceLastImported="1304335134" sourcePlatform="macintosh" externalFileSize="8403" originalCompressionType="lossless" quality="50" href="Items/card.png" bitmapDataHRef="M 17 1304074718.dat" frameRight="1280" frameBottom="1280"/>
           <DOMSoundItem name="Sounds/click" itemID="4dba9fa2-000003ae" linkageExportForAS="true" linkageClassName="ClickSound" sourceExternalFilepath="./LIBRARY/Sounds/click.mp3" sourceLastImported="1304076186" sourcePlatform="macintosh" externalFileSize="7572" href="Sounds/click.mp3" soundDataHRef="M 16 1303904149.dat" format="44kHz 16bit Mono" sampleCount="20736" exportFormat="1" exportBits="7" dataLength="7524" exportNative="true" cachedSampleCount="2592"/>
-          <DOMBitmapItem name="Crystal_Clear_action_bookmark_Silver.png" itemID="4dbf0528-00000697" sourceExternalFilepath="./LIBRARY/Crystal_Clear_action_bookmark_Silver.png" sourceLastImported="1304364284" sourcePlatform="macintosh" externalFileSize="7656" originalCompressionType="lossless" quality="50" href="Crystal_Clear_action_bookmark_Silver.png" bitmapDataHRef="M 26 1304364274.dat" frameRight="1280" frameBottom="1280"/>
+          <DOMBitmapItem name="Crystal_Clear_action_bookmark_Silver.png" itemID="4dbf0528-00000697" sourceExternalFilepath="./LIBRARY/Crystal_Clear_action_bookmark_Silver.png" sourceLastImported="1304364284" sourcePlatform="macintosh" externalFileSize="7656" originalCompressionType="lossless" quality="50" href="Crystal_Clear_action_bookmark_Silver.png" bitmapDataHRef="M 26 1304364274.dat" frameLeft="-115200" frameTop="-115200" frameRight="-115200" frameBottom="-115200"/>
           <DOMBitmapItem name="Crystal_Clear_action_bookmark.png" itemID="4dbf04db-00000691" sourceExternalFilepath="./LIBRARY/Crystal_Clear_action_bookmark.png" sourceLastImported="1304364210" sourcePlatform="macintosh" externalFileSize="7446" originalCompressionType="lossless" quality="50" href="Crystal_Clear_action_bookmark.png" bitmapDataHRef="M 25 1304364181.dat" frameRight="1280" frameBottom="1280"/>
           <DOMBitmapItem name="Worker/desk.png" itemID="4dba9fa2-000003af" sourceExternalFilepath="./LIBRARY/Worker/desk.png" sourceLastImported="1304076186" sourcePlatform="macintosh" externalFileSize="18191" originalCompressionType="lossless" quality="50" href="Worker/desk.png" bitmapDataHRef="M 14 1303902493.dat" frameRight="2560" frameBottom="2560"/>
           <DOMBitmapItem name="Parts/down.png" itemID="4dba9fa2-000003b0" sourceExternalFilepath="./LIBRARY/Parts/down.png" sourceLastImported="1304076186" sourcePlatform="macintosh" externalFileSize="1253" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Parts/down.png" bitmapDataHRef="M 1 1301004257.dat" frameRight="600" frameBottom="600"/>
@@ -29,6 +30,7 @@
           <DOMBitmapItem name="Worker/hardware.png" itemID="4dba9fa4-000003b3" sourceExternalFilepath="./LIBRARY/Worker/hardware.png" sourceLastImported="1304076187" sourcePlatform="macintosh" externalFileSize="9245" originalCompressionType="lossless" quality="50" href="Worker/hardware.png" bitmapDataHRef="M 11 1301073887.dat" frameRight="1500" frameBottom="1080"/>
           <DOMBitmapItem name="Parts/left.png" itemID="4dba9fa4-000003b4" sourceExternalFilepath="./LIBRARY/Parts/left.png" sourceLastImported="1304076187" sourcePlatform="macintosh" externalFileSize="1229" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Parts/left.png" bitmapDataHRef="M 2 1301004257.dat" frameRight="600" frameBottom="600"/>
           <DOMBitmapItem name="Logos/logo.png" itemID="4db9a919-00000328" sourceExternalFilepath="./LIBRARY/Logos/logo.png" sourceLastImported="1304010740" sourcePlatform="macintosh" externalFileSize="26780" originalCompressionType="lossless" quality="50" href="Logos/logo.png" bitmapDataHRef="M 10 1301668706.dat" frameRight="3000" frameBottom="3400"/>
+          <DOMBitmapItem name="manager.png" itemID="4dbfec61-0000091a" sourceExternalFilepath="./LIBRARY/manager.png" sourceLastImported="1303034682" sourcePlatform="macintosh" externalFileSize="40311" originalCompressionType="lossless" quality="50" href="manager.png" bitmapDataHRef="M 27 1304423183.dat" frameRight="5160" frameBottom="6320"/>
           <DOMBitmapItem name="Items/pda.png" itemID="4dbe978b-000004e3" sourceExternalFilepath="./LIBRARY/Items/pda.png" sourceLastImported="1304336266" sourcePlatform="macintosh" externalFileSize="6718" originalCompressionType="lossless" quality="50" href="Items/pda.png" bitmapDataHRef="M 23 1304334936.dat" frameRight="1280" frameBottom="1280"/>
           <DOMBitmapItem name="Worker/player.png" itemID="4dba9fa4-000003b5" sourceExternalFilepath="./LIBRARY/Worker/player.png" sourceLastImported="1304076187" sourcePlatform="macintosh" externalFileSize="44480" originalCompressionType="lossless" quality="50" href="Worker/player.png" bitmapDataHRef="M 15 1303902620.dat" frameRight="4440" frameBottom="6260"/>
           <DOMBitmapItem name="Parts/right.png" itemID="4dba9fa4-000003b6" sourceExternalFilepath="./LIBRARY/Parts/right.png" sourceLastImported="1304076187" sourcePlatform="macintosh" externalFileSize="1231" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Parts/right.png" bitmapDataHRef="M 3 1301004257.dat" frameRight="600" frameBottom="600"/>
@@ -45,6 +47,7 @@
           <Include href="Logos/Symbol 2.xml" loadImmediate="false"/>
           <Include href="navigation.xml" loadImmediate="false"/>
           <Include href="next.xml" itemIcon="0" loadImmediate="false"/>
+          <Include href="overlay.xml" itemIcon="1" loadImmediate="false"/>
           <Include href="points.xml" loadImmediate="false"/>
           <Include href="Parts/down.xml"/>
           <Include href="Parts/left.xml"/>
@@ -67,7 +70,19 @@
                               </DOMFrame>
                               <DOMFrame index="14" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[import flash.events.MouseEvent;stop();start.addEventListener(MouseEvent.CLICK, startClicked);function startClicked(event:MouseEvent):void{	var snd:StartSound = new StartSound();	snd.play();	gotoAndPlay(1, 'Intro');}]]></script>
+                                        <script><![CDATA[import flash.events.MouseEvent;
+
+stop();
+
+start.addEventListener(MouseEvent.CLICK, startClicked);
+
+function startClicked(event:MouseEvent):void
+{
+	var snd:StartSound = new StartSound();
+	snd.play();
+	gotoAndPlay(1, 'Intro');
+}
+]]></script>
                                    </Actionscript>
                                    <elements/>
                               </DOMFrame>
@@ -533,12 +548,7 @@
                          <frames>
                               <DOMFrame index="0" name="start" labelType="name" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[stop();
-
-startFactory();
-
-var snd:GameSound = new GameSound();
-snd.play();]]></script>
+                                        <script><![CDATA[stop();startFactory();]]></script>
                                    </Actionscript>
                                    <elements/>
                               </DOMFrame>
@@ -548,7 +558,287 @@ snd.play();]]></script>
           </DOMTimeline>
      </timelines>
      <timelines>
-          <DOMTimeline name="Intro" currentFrame="25">
+          <DOMTimeline name="Game Over">
+               <layers>
+                    <DOMLayer name="Boss" color="#9933CC" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMBitmapInstance name="" referenceID="" libraryItemName="manager.png">
+                                             <matrix>
+                                                  <Matrix tx="303" ty="88"/>
+                                             </matrix>
+                                        </DOMBitmapInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Button" color="#4FFFFF" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="next" name="next" symbolType="button">
+                                             <matrix>
+                                                  <Matrix tx="320" ty="10"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Text" color="#FF4FFF" current="true" isSelected="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMTLFText name="text" right="5779" bottom="6760">
+                                             <matrix>
+                                                  <Matrix tx="23" ty="12"/>
+                                             </matrix>
+                                             <tlfFonts>
+                                                  <TLFFont platformName="Skia" psName="Skia-Regular"/>
+                                             </tlfFonts>
+                                             <markup><tlfTextObject type="Paragraph" editPolicy="readOnly" columnCount="1" columnGap="20" verticalAlign="top" firstBaselineOffset="auto" paddingLeft="2" paddingTop="2" paddingRight="2" paddingBottom="2" background="false" backgroundColor="#ffffff" backgroundAlpha="1" border="false" borderColor="#000000" borderAlpha="1" borderWidth="1" paddingLock="false" multiline="true" antiAliasType="advanced" embedFonts="true"><TextFlow blockProgression="tb" columnCount="inherit" columnGap="inherit" columnWidth="inherit" lineBreak="inherit" locale="en_GB" paddingBottom="inherit" paddingLeft="inherit" paddingRight="inherit" paddingTop="inherit" verticalAlign="inherit" whiteSpaceCollapse="preserve" xmlns="http://ns.adobe.com/textLayout/2008"><p direction="ltr" paragraphEndIndent="0" paragraphSpaceAfter="0" paragraphSpaceBefore="0" paragraphStartIndent="0" textAlign="start" textAlignLast="justify" textIndent="0" textJustify="interWord"><span color="#ffffff" fontFamily="Skia" fontSize="16" fontStyle="normal" fontWeight="normal" kerning="auto" lineHeight="120%" lineThrough="false" locale="en_GB" textAlpha="1" textDecoration="none" textRotation="auto" trackingRight="0%">You have produced 0 products and earned 0 score.</span></p><p direction="ltr" paragraphEndIndent="0" paragraphSpaceAfter="0" paragraphSpaceBefore="0" paragraphStartIndent="0" textAlign="start" textAlignLast="justify" textIndent="0" textJustify="interWord"><span color="#ffffff" fontFamily="Skia" fontSize="16" fontStyle="normal" fontWeight="normal" kerning="auto" lineHeight="120%" lineThrough="false" locale="en_GB" textAlpha="1" textDecoration="none" textRotation="auto" trackingRight="0%"></span></p><p direction="ltr" paragraphEndIndent="0" paragraphSpaceAfter="0" paragraphSpaceBefore="0" paragraphStartIndent="0" textAlign="start" textAlignLast="justify" textIndent="0" textJustify="interWord"><span color="#ffffff" fontFamily="Skia" fontSize="16" fontStyle="normal" fontWeight="normal" kerning="auto" lineHeight="120%" lineThrough="false" locale="en_GB" textAlpha="1" textDecoration="none" textRotation="auto" trackingRight="0%"></span></p></TextFlow></tlfTextObject></markup>
+                                        </DOMTLFText>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Overlay" color="#FF800A" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="overlay" name="" symbolType="graphic" loop="loop">
+                                             <transformationPoint>
+                                                  <Point x="275" y="200"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.69921875"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="You" color="#9933CC" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Worker/worker" name="you" centerPoint3DX="223" centerPoint3DY="239">
+                                             <matrix>
+                                                  <Matrix tx="223" ty="239"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <DropShadowFilter distance="1"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Worker" color="#9933CC" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Worker/worker" name="" centerPoint3DX="334" centerPoint3DY="125">
+                                             <matrix>
+                                                  <Matrix a="0.387603759765625" d="0.387496948242188" tx="334" ty="125"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <DropShadowFilter distance="1"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Worker/worker" name="" centerPoint3DX="190.5" centerPoint3DY="125">
+                                             <matrix>
+                                                  <Matrix a="0.387603759765625" d="0.387115478515625" tx="190.5" ty="125"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <DropShadowFilter distance="1"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Worker/worker" name="" centerPoint3DX="47" centerPoint3DY="125">
+                                             <matrix>
+                                                  <Matrix a="0.387603759765625" d="0.3873291015625" tx="47" ty="125"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <DropShadowFilter distance="1"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Worker/worker" name="" centerPoint3DX="262.25" centerPoint3DY="125">
+                                             <matrix>
+                                                  <Matrix a="0.387603759765625" d="0.3873291015625" tx="262.25" ty="125"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <DropShadowFilter distance="1"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Worker/worker" name="" centerPoint3DX="118.75" centerPoint3DY="125">
+                                             <matrix>
+                                                  <Matrix a="0.387603759765625" d="0.38714599609375" tx="118.75" ty="125"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point y="-0.15"/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <DropShadowFilter distance="1"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Worker/worker" name="" centerPoint3DX="334.25" centerPoint3DY="180.25">
+                                             <matrix>
+                                                  <Matrix a="0.387603759765625" d="0.387496948242188" tx="334.25" ty="180.25"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <DropShadowFilter distance="1"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Worker/worker" name="" centerPoint3DX="190.75" centerPoint3DY="180.25">
+                                             <matrix>
+                                                  <Matrix a="0.387603759765625" d="0.387115478515625" tx="190.75" ty="180.25"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <DropShadowFilter distance="1"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Worker/worker" name="" centerPoint3DX="47.25" centerPoint3DY="180.25">
+                                             <matrix>
+                                                  <Matrix a="0.387603759765625" d="0.3873291015625" tx="47.25" ty="180.25"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <DropShadowFilter distance="1"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Worker/worker" name="" centerPoint3DX="262.5" centerPoint3DY="180.25">
+                                             <matrix>
+                                                  <Matrix a="0.387603759765625" d="0.3873291015625" tx="262.5" ty="180.25"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <DropShadowFilter distance="1"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Worker/worker" name="" centerPoint3DX="119" centerPoint3DY="180.25">
+                                             <matrix>
+                                                  <Matrix a="0.387603759765625" d="0.38714599609375" tx="119" ty="180.25"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point y="-0.15"/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <DropShadowFilter distance="1"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Worker/worker" name="" centerPoint3DX="332.5" centerPoint3DY="235.5">
+                                             <matrix>
+                                                  <Matrix a="0.387603759765625" d="0.387496948242188" tx="332.5" ty="235.5"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <BlurFilter blurX="1" blurY="1" quality="3"/>
+                                                  <DropShadowFilter distance="1"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Worker/worker" name="" centerPoint3DX="189" centerPoint3DY="235.5">
+                                             <matrix>
+                                                  <Matrix a="0.387603759765625" d="0.387115478515625" tx="189" ty="235.5"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <DropShadowFilter distance="1"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Worker/worker" name="" centerPoint3DX="45.5" centerPoint3DY="235.5">
+                                             <matrix>
+                                                  <Matrix a="0.387603759765625" d="0.3873291015625" tx="45.5" ty="235.5"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <DropShadowFilter distance="1"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Worker/worker" name="" centerPoint3DX="260.75" centerPoint3DY="235.5">
+                                             <matrix>
+                                                  <Matrix a="0.387603759765625" d="0.3873291015625" tx="260.75" ty="235.5"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <DropShadowFilter distance="1"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Worker/worker" name="" centerPoint3DX="117.25" centerPoint3DY="235.5">
+                                             <matrix>
+                                                  <Matrix a="0.387603759765625" d="0.38714599609375" tx="117.25" ty="235.5"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point y="-0.15"/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <DropShadowFilter distance="1"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Background" color="#4FFF4F" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMBitmapInstance name="" referenceID="" libraryItemName="factory_floor_with_wall.png"/>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Actions" color="#9933CC" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <Actionscript>
+                                        <script><![CDATA[import flash.events.MouseEvent;stop();text.text = 'You earned ' + getScore() + ' score. For a couple of days you have tried out the life of a factory worker in China.\n\nClick arrow for more information.';var txt:Array =  [		'Harsh treatment from managers is common at the Foxconn factory.\nWorkers are reminded they should obey all instructions by superiors without questioning.\nSometimes management sets traps to test the workers.\nFor example management can take away a component of a product. If the worker concerned cannot discover the flaw, he/she will be punished.\nPublic humiliation is a common punishment.\n\nClick arrow to try again.',	'In the Wintek factory workers used the poisonous chemical n-hexane to clean touch screens.\nWorkers got really sick and a number of them were taken into hospital on October the 26th 2010.\nEarlier alcohol was used but it was replaced by n-hexane as it evaporates faster and hence can increase the production rate.\n\nClick arrow for more information.',	'In the Foxconn factory monthly overtime working hours amounts to 120 hours during the peak production time.\nThe local labour law says the maximum is 36 overtime working hours per month.\nThe production target is usually 5000 pieces per day.\nAlthough Foxconn claims workers have a 10-minute break every 2 hours, a worker interviewed says there are no breaks in her department at all.\n\nClick arrow for more information.'];next.addEventListener(MouseEvent.CLICK, function (event:MouseEvent) {	if (txt.length > 0) {		text.text = txt.pop();	} else {		gotoAndPlay('start', 'Factory');	}});]]></script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+     </timelines>
+     <timelines>
+          <DOMTimeline name="Intro">
                <layers>
                     <DOMLayer name="Buttons" color="#FF800A" autoNamed="false">
                          <frames>
@@ -706,15 +996,20 @@ snd.play();]]></script>
                          <frames>
                               <DOMFrame index="0" duration="24" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[frame1.addEventListener(MouseEvent.CLICK, function(event:MouseEvent):void{	gotoAndPlay('frame2');});]]></script>
+                                        <script><![CDATA[var snd:GameSound = new GameSound();snd.play(0, -1);frame1.addEventListener(MouseEvent.CLICK, function(event:MouseEvent):void{	gotoAndPlay('frame2');});]]></script>
                                    </Actionscript>
                                    <elements>
-                                        <DOMBitmapInstance name="" referenceID="" libraryItemName="factory_workers_bg.png"/>
+                                        <DOMBitmapInstance name="" referenceID="" selected="true" libraryItemName="factory_workers_bg.png"/>
                                    </elements>
                               </DOMFrame>
                               <DOMFrame index="24" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[stop();frame2.addEventListener(MouseEvent.CLICK, function(event:MouseEvent):void{	gotoAndPlay('frame2');});]]></script>
+                                        <script><![CDATA[stop();
+
+frame2.addEventListener(MouseEvent.CLICK, function(event:MouseEvent):void
+{
+	gotoAndPlay('frame2');
+});]]></script>
                                    </Actionscript>
                                    <elements>
                                         <DOMBitmapInstance name="" referenceID="" libraryItemName="factory_workers_bg.png"/>
@@ -722,10 +1017,13 @@ snd.play();]]></script>
                               </DOMFrame>
                               <DOMFrame index="25" duration="24" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[frame3.addEventListener(MouseEvent.CLICK, function(event:MouseEvent):void{	gotoAndPlay('frame3');});]]></script>
+                                        <script><![CDATA[frame3.addEventListener(MouseEvent.CLICK, function(event:MouseEvent):void
+{
+	gotoAndPlay('frame3');
+});]]></script>
                                    </Actionscript>
                                    <elements>
-                                        <DOMBitmapInstance name="" referenceID="" selected="true" libraryItemName="factory_workers_bg.png"/>
+                                        <DOMBitmapInstance name="" referenceID="" libraryItemName="factory_workers_bg.png"/>
                                    </elements>
                               </DOMFrame>
                               <DOMFrame index="49" keyMode="9728">
@@ -738,7 +1036,10 @@ snd.play();]]></script>
                               </DOMFrame>
                               <DOMFrame index="50" duration="24" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[frame4.addEventListener(MouseEvent.CLICK, function(event:MouseEvent):void{	gotoAndPlay('frame4');});]]></script>
+                                        <script><![CDATA[frame4.addEventListener(MouseEvent.CLICK, function(event:MouseEvent):void
+{
+	gotoAndPlay('frame4');
+});]]></script>
                                    </Actionscript>
                                    <elements>
                                         <DOMBitmapInstance name="" referenceID="" libraryItemName="factory_workers_bg.png"/>
@@ -752,53 +1053,6 @@ startGame.addEventListener(MouseEvent.CLICK, function(event:MouseEvent):void
 {
 	gotoAndPlay('start', 'Factory');
 });]]></script>
-                                   </Actionscript>
-                                   <elements>
-                                        <DOMBitmapInstance name="" referenceID="" libraryItemName="factory_workers_bg.png"/>
-                                   </elements>
-                              </DOMFrame>
-                         </frames>
-                    </DOMLayer>
-               </layers>
-          </DOMTimeline>
-     </timelines>
-     <timelines>
-          <DOMTimeline name="Game Over">
-               <layers>
-                    <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true" animationType="motion object">
-                         <frames>
-                              <DOMFrame index="0" duration="360" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="2097151" keyMode="8195">
-                                   <motionObjectXML><AnimationCore TimeScale="24000" Version="1" duration="360000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_GB" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.499947" xformPtYOffsetPct="0.507715" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="359000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,-1063.38" next="0,-1063.38" previous="0,-1063.38" roving="0" timevalue="359000"/></Property><Property enabled="1" id="Motion_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,363.204" next="0,363.204" previous="0,363.204" roving="0" timevalue="359000"/></Property><Property enabled="1" id="Rotation_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,-42" next="0,-42" previous="0,-42" roving="0" timevalue="0"/></Property><Property enabled="1" id="Rotation_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/><Keyframe anchor="0,77.4841" next="0,77.4841" previous="0,77.4841" roving="0" timevalue="359000"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/><Keyframe anchor="0,74.0555" next="0,74.0555" previous="0,74.0555" roving="0" timevalue="359000"/></Property></PropertyContainer><PropertyContainer id="Colors"/><PropertyContainer id="Filters"><PropertyContainer id="DropShadow_Filter"><Property enabled="1" id="DropShadow_BlurX" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,3" next="0,3" previous="0,3" roving="0" timevalue="0"/></Property><Property enabled="1" id="DropShadow_BlurY" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,3" next="0,3" previous="0,3" roving="0" timevalue="0"/></Property><Property enabled="1" id="DropShadow_Strength" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/></Property><Property enabled="1" id="DropShadow_Quality" readonly="0" value="3" visible="1"/><Property enabled="1" id="DropShadow_Angle" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,45" next="0,45" previous="0,45" roving="0" timevalue="0"/></Property><Property enabled="1" id="DropShadow_Distance" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,3" next="0,3" previous="0,3" roving="0" timevalue="0"/></Property><Property enabled="1" id="DropShadow_Knockout" readonly="0" value="0" visible="1"/><Property enabled="1" id="DropShadow_InnerShadow" readonly="0" value="0" visible="1"/><Property enabled="1" id="DropShadow_HideObject" readonly="0" value="0" visible="1"/><Property enabled="1" id="DropShadow_Color" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe roving="0" timevalue="0" value="0x000000ff"/></Property></PropertyContainer></PropertyContainer></PropertyContainer></AnimationCore></motionObjectXML>
-                                   <elements>
-                                        <DOMTLFText name="" left="-14481" right="-5020" bottom="25859" matrix3D="1 0 0 0 0 0.743144810199738 -0.669130623340607 0 0 0.669130623340607 0.743144810199738 0 770 7091.251953125 0.015625 1" centerPoint3DX="275" centerPoint3DY="842.4" centerPoint3DZ="-439.25">
-                                             <matrix>
-                                                  <Matrix tx="724.05"/>
-                                             </matrix>
-                                             <transformationPoint>
-                                                  <Point x="275" y="200"/>
-                                             </transformationPoint>
-                                             <tlfFonts>
-                                                  <TLFFont platformName="Skia" psName="Skia-Regular"/>
-                                             </tlfFonts>
-                                             <markup><tlfTextObject type="Paragraph" editPolicy="readOnly" columnCount="1" columnGap="20" verticalAlign="top" firstBaselineOffset="auto" paddingLeft="2" paddingTop="2" paddingRight="2" paddingBottom="2" background="false" backgroundColor="#ffffff" backgroundAlpha="1" border="false" borderColor="#000000" borderAlpha="1" borderWidth="1" paddingLock="false" multiline="true" antiAliasType="advanced" embedFonts="true"><TextFlow blockProgression="tb" columnCount="inherit" columnGap="inherit" columnWidth="inherit" lineBreak="toFit" locale="en_GB" paddingBottom="inherit" paddingLeft="inherit" paddingRight="inherit" paddingTop="inherit" verticalAlign="inherit" whiteSpaceCollapse="preserve" xmlns="http://ns.adobe.com/textLayout/2008"><p direction="ltr" paragraphEndIndent="0" paragraphSpaceAfter="0" paragraphSpaceBefore="0" paragraphStartIndent="0" textAlign="center" textAlignLast="justify" textIndent="0" textJustify="interWord"><span color="#ffffff" fontFamily="Skia" fontSize="50" fontStyle="normal" fontWeight="normal" kerning="auto" lineHeight="120%" textAlpha="1" textRotation="auto" trackingRight="0%">You have produced xxx nbr of products and earned yyy score. For a couple of days you have tried out the life of a factory worker in China.</span></p><p direction="ltr" paragraphEndIndent="0" paragraphSpaceAfter="0" paragraphSpaceBefore="0" paragraphStartIndent="0" textAlign="center" textAlignLast="justify" textIndent="0" textJustify="interWord"><span color="#ffffff" fontFamily="Skia" fontSize="50" fontStyle="normal" fontWeight="normal" kerning="auto" lineHeight="120%" textAlpha="1" textRotation="auto" trackingRight="0%"></span></p><p direction="ltr" paragraphEndIndent="0" paragraphSpaceAfter="0" paragraphSpaceBefore="0" paragraphStartIndent="0" textAlign="center" textAlignLast="justify" textIndent="0" textJustify="interWord"><span color="#ffffff" fontFamily="Skia" fontSize="50" fontStyle="normal" fontWeight="normal" kerning="auto" lineHeight="120%" textAlpha="1" textRotation="auto" trackingRight="0%"> (Picture of the posion product) - In the Wintek factory workers used the poisonous chemical n-hexane to clean touch screens. Workers got really sick and a number of them were taken into hospital on October the 26th 2010. Earlier alcohol was used but it was replaced by n-hexane as it evaporates faster and hence can increase the production rate.</span></p><p direction="ltr" paragraphEndIndent="0" paragraphSpaceAfter="0" paragraphSpaceBefore="0" paragraphStartIndent="0" textAlign="center" textAlignLast="justify" textIndent="0" textJustify="interWord"><span color="#ffffff" fontFamily="Skia" fontSize="50" fontStyle="normal" fontWeight="normal" kerning="auto" lineHeight="120%" textAlpha="1" textRotation="auto" trackingRight="0%"></span></p><p direction="ltr" paragraphEndIndent="0" paragraphSpaceAfter="0" paragraphSpaceBefore="0" paragraphStartIndent="0" textAlign="center" textAlignLast="justify" textIndent="0" textJustify="interWord"><span color="#ffffff" fontFamily="Skia" fontSize="50" fontStyle="normal" fontWeight="normal" kerning="auto" lineHeight="120%" textAlpha="1" textRotation="auto" trackingRight="0%">(Picture of the clock) - In the Foxconn factory (which manufactures e.g. iPad) monthly overtime working hours amounts to 120 hours during the peak production time. The local labour law says the maximum is 36 overtime working hours per month. The production target is usually 5000 pieces per day. Although Foxconn claims workers have a 10-minute break every 2 hours, a worker interviewed says there are no breaks in her department at all.</span></p><p direction="ltr" paragraphEndIndent="0" paragraphSpaceAfter="0" paragraphSpaceBefore="0" paragraphStartIndent="0" textAlign="center" textAlignLast="justify" textIndent="0" textJustify="interWord"><span color="#ffffff" fontFamily="Skia" fontSize="50" fontStyle="normal" fontWeight="normal" kerning="auto" lineHeight="120%" textAlpha="1" textRotation="auto" trackingRight="0%"></span></p><p direction="ltr" paragraphEndIndent="0" paragraphSpaceAfter="0" paragraphSpaceBefore="0" paragraphStartIndent="0" textAlign="center" textAlignLast="justify" textIndent="0" textJustify="interWord"><span color="#ffffff" fontFamily="Skia" fontSize="50" fontStyle="normal" fontWeight="normal" kerning="auto" lineHeight="120%" textAlpha="1" textRotation="auto" trackingRight="0%">(Picture of manager) - Harsh treatment from managers is common at the Foxconn factory. Workers are reminded they should obey all instructions by superiors without questioning. Sometimes management sets traps to test the workers. For example management can take away a component of a product. If the worker concerned cannot discover the flaw, he/she will be punished. Public humiliation is a common punishment.</span></p></TextFlow></tlfTextObject></markup>
-                                             <filters>
-                                                  <DropShadowFilter blurX="3" blurY="3" distance="3" quality="3"/>
-                                             </filters>
-                                        </DOMTLFText>
-                                   </elements>
-                              </DOMFrame>
-                         </frames>
-                    </DOMLayer>
-                    <DOMLayer name="Layer 2" color="#9933CC">
-                         <frames>
-                              <DOMFrame index="0" duration="359" keyMode="9728">
-                                   <elements>
-                                        <DOMBitmapInstance name="" referenceID="" libraryItemName="factory_workers_bg.png"/>
-                                   </elements>
-                              </DOMFrame>
-                              <DOMFrame index="359" keyMode="9728">
-                                   <Actionscript>
-                                        <script><![CDATA[gotoAndPlay('start', 'Factory');]]></script>
                                    </Actionscript>
                                    <elements>
                                         <DOMBitmapInstance name="" referenceID="" libraryItemName="factory_workers_bg.png"/>
@@ -1116,25 +1370,25 @@ startGame.addEventListener(MouseEvent.CLICK, function(event:MouseEvent):void
      </persistentData>
      <PrinterSettings platform="macintosh"/>
      <publishHistory>
-          <PublishItem publishSize="721266" publishTime="1304368857"/>
-          <PublishItem publishSize="720982" publishTime="1304368375"/>
-          <PublishItem publishSize="720985" publishTime="1304368314"/>
-          <PublishItem publishSize="720971" publishTime="1304368280"/>
-          <PublishItem publishSize="720940" publishTime="1304368066"/>
-          <PublishItem publishSize="717403" publishTime="1304366981"/>
-          <PublishItem publishSize="717292" publishTime="1304366887"/>
-          <PublishItem publishSize="717293" publishTime="1304366867"/>
-          <PublishItem publishSize="717293" publishTime="1304366796"/>
-          <PublishItem publishSize="717362" publishTime="1304366743"/>
-          <PublishItem publishSize="717335" publishTime="1304366710"/>
-          <PublishItem publishSize="717329" publishTime="1304366684"/>
-          <PublishItem publishSize="717329" publishTime="1304366504"/>
-          <PublishItem publishSize="717305" publishTime="1304366462"/>
-          <PublishItem publishSize="717304" publishTime="1304366380"/>
-          <PublishItem publishSize="717304" publishTime="1304366367"/>
-          <PublishItem publishSize="717337" publishTime="1304364303"/>
-          <PublishItem publishSize="717599" publishTime="1304364231"/>
-          <PublishItem publishSize="715604" publishTime="1304360778"/>
-          <PublishItem publishSize="715617" publishTime="1304360729"/>
+          <PublishItem publishSize="737833" publishTime="1304425439"/>
+          <PublishItem publishSize="737852" publishTime="1304425335"/>
+          <PublishItem publishSize="737840" publishTime="1304425249"/>
+          <PublishItem publishSize="737790" publishTime="1304425037"/>
+          <PublishItem publishSize="737813" publishTime="1304424879"/>
+          <PublishItem publishSize="737159" publishTime="1304424721"/>
+          <PublishItem publishSize="854429" publishTime="1304424549" publishDebug="true"/>
+          <PublishItem publishSize="737163" publishTime="1304424448"/>
+          <PublishItem publishSize="737192" publishTime="1304424192"/>
+          <PublishItem publishSize="737103" publishTime="1304423972"/>
+          <PublishItem publishSize="737071" publishTime="1304423936"/>
+          <PublishItem publishSize="717988" publishTime="1304421937"/>
+          <PublishItem publishSize="717965" publishTime="1304421849"/>
+          <PublishItem publishSize="717903" publishTime="1304421812"/>
+          <PublishItem publishSize="717916" publishTime="1304421773"/>
+          <PublishItem publishSize="717973" publishTime="1304421749"/>
+          <PublishItem publishSize="717666" publishTime="1304421261"/>
+          <PublishItem publishSize="717665" publishTime="1304421200"/>
+          <PublishItem publishSize="717918" publishTime="1304421162"/>
+          <PublishItem publishSize="717941" publishTime="1304421141"/>
      </publishHistory>
 </DOMDocument>
