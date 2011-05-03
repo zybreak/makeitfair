@@ -1,4 +1,4 @@
-<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#002E45" currentTimeline="2" xflVersion="2.0" creatorInfo="Adobe Flash Professional CS5" platform="Macintosh" versionInfo="Saved by Adobe Flash Macintosh 11.0 build 489" majorVersion="11" buildNumber="489" gridSnapTo="true" viewAngle3D="10" nextSceneIdentifier="5" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false">
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#002E45" currentTimeline="1" xflVersion="2.0" creatorInfo="Adobe Flash Professional CS5" platform="Macintosh" versionInfo="Saved by Adobe Flash Macintosh 11.0 build 489" majorVersion="11" buildNumber="489" gridSnapTo="true" viewAngle3D="10" nextSceneIdentifier="5" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false">
      <folders>
           <DOMFolderItem name="Items" itemID="4dbe91f8-000004a1"/>
           <DOMFolderItem name="Logos" itemID="4db99f38-00000289"/>
@@ -67,19 +67,7 @@
                               </DOMFrame>
                               <DOMFrame index="14" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[import flash.events.MouseEvent;
-
-stop();
-
-start.addEventListener(MouseEvent.CLICK, startClicked);
-
-function startClicked(event:MouseEvent):void
-{
-	var snd:StartSound = new StartSound();
-	snd.play();
-	gotoAndPlay(1, 'Intro');
-}
-]]></script>
+                                        <script><![CDATA[import flash.events.MouseEvent;stop();start.addEventListener(MouseEvent.CLICK, startClicked);function startClicked(event:MouseEvent):void{	var snd:StartSound = new StartSound();	snd.play();	gotoAndPlay(1, 'Intro');}]]></script>
                                    </Actionscript>
                                    <elements/>
                               </DOMFrame>
@@ -314,7 +302,7 @@ function startClicked(event:MouseEvent):void
                                                   <DropShadowFilter distance="1"/>
                                              </filters>
                                         </DOMDynamicText>
-                                        <DOMBitmapInstance name="" referenceID="" libraryItemName="Crystal_Clear_action_bookmark_Silver.png">
+                                        <DOMBitmapInstance name="" referenceID="" libraryItemName="Crystal_Clear_action_bookmark.png">
                                              <matrix>
                                                   <Matrix tx="489" ty="-3"/>
                                              </matrix>
@@ -339,7 +327,7 @@ function startClicked(event:MouseEvent):void
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="You" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+                    <DOMLayer name="You" color="#9933CC" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
@@ -541,7 +529,7 @@ function startClicked(event:MouseEvent):void
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Actions" color="#9933CC" autoNamed="false">
+                    <DOMLayer name="Actions" color="#9933CC" current="true" isSelected="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" name="start" labelType="name" keyMode="9728">
                                    <Actionscript>
@@ -1128,6 +1116,11 @@ startGame.addEventListener(MouseEvent.CLICK, function(event:MouseEvent):void
      </persistentData>
      <PrinterSettings platform="macintosh"/>
      <publishHistory>
+          <PublishItem publishSize="721266" publishTime="1304368857"/>
+          <PublishItem publishSize="720982" publishTime="1304368375"/>
+          <PublishItem publishSize="720985" publishTime="1304368314"/>
+          <PublishItem publishSize="720971" publishTime="1304368280"/>
+          <PublishItem publishSize="720940" publishTime="1304368066"/>
           <PublishItem publishSize="717403" publishTime="1304366981"/>
           <PublishItem publishSize="717292" publishTime="1304366887"/>
           <PublishItem publishSize="717293" publishTime="1304366867"/>
@@ -1143,10 +1136,5 @@ startGame.addEventListener(MouseEvent.CLICK, function(event:MouseEvent):void
           <PublishItem publishSize="717599" publishTime="1304364231"/>
           <PublishItem publishSize="715604" publishTime="1304360778"/>
           <PublishItem publishSize="715617" publishTime="1304360729"/>
-          <PublishItem publishSize="715604" publishTime="1304360697"/>
-          <PublishItem publishSize="715591" publishTime="1304360551"/>
-          <PublishItem publishSize="715529" publishTime="1304360432"/>
-          <PublishItem publishSize="715602" publishTime="1304360412"/>
-          <PublishItem publishSize="715246" publishTime="1304344127"/>
      </publishHistory>
 </DOMDocument>
