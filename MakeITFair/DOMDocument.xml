@@ -1,4 +1,4 @@
-<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#002E45" currentTimeline="3" xflVersion="2.0" creatorInfo="Adobe Flash Professional CS5" platform="Macintosh" versionInfo="Saved by Adobe Flash Macintosh 11.0 build 489" majorVersion="11" buildNumber="489" gridSnapTo="true" viewAngle3D="10" nextSceneIdentifier="6" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false">
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#002E45" currentTimeline="4" xflVersion="2.0" creatorInfo="Adobe Flash Professional CS5" platform="Macintosh" versionInfo="Saved by Adobe Flash Macintosh 11.0 build 489" majorVersion="11" buildNumber="489" gridSnapTo="true" viewAngle3D="10" nextSceneIdentifier="6" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false">
      <folders>
           <DOMFolderItem name="Items" itemID="4dbe91f8-000004a1"/>
           <DOMFolderItem name="Logos" itemID="4db99f38-00000289"/>
@@ -7,7 +7,7 @@
           <DOMFolderItem name="Worker" itemID="4dba9f1a-000003a3"/>
      </folders>
      <fonts>
-          <DOMFontItem name="Font 2" itemID="4dbfec2c-000008fd" font="Skia-Regular" size="0" id="2" sourceLastImported="1304423468" embedRanges="1|2|3|4"/>
+          <DOMFontItem name="Font 2" itemID="4dbfec2c-000008fd" font="Skia-Regular" size="0" id="2" sourceLastImported="1304444880" embedRanges="1|2|3|4"/>
           <DOMFontItem name="Font 1" itemID="4dbe90d1-00000449" font="Verdana" size="0" id="1" sourceLastImported="1304334545" embedRanges="3"/>
      </fonts>
      <media>
@@ -271,6 +271,37 @@ function startClicked(event:MouseEvent):void
                                                   <Point x="-0.05" y="0.4"/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Progress" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMShape>
+                                             <fills>
+                                                  <FillStyle index="1">
+                                                       <SolidColor color="#333333"/>
+                                                  </FillStyle>
+                                             </fills>
+                                             <edges>
+                                                  <Edge fillStyle0="1" edges="!5160 549[5160 400 5059 400!5059 400|2860 400!2860 400[2760 400 2760 549!2760 549|2760 850!2760 850[2760 1000 2860 1000!2860 1000|5059 1000!5059 1000[5160 1000 5160 850!5160 850|5160 549"/>
+                                             </edges>
+                                        </DOMShape>
+                                        <DOMDynamicText name="progress" width="133" height="16.05" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="131.5" ty="27"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>10 Items Left</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" aliasText="false" rotation="true" lineSpacing="3.15" size="16" bitmapSize="320" face="Skia-Regular" fillColor="#FFFFFF"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMDynamicText>
                                    </elements>
                               </DOMFrame>
                          </frames>
@@ -544,11 +575,14 @@ function startClicked(event:MouseEvent):void
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Actions" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+                    <DOMLayer name="Actions" color="#9933CC" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" name="start" labelType="name" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[stop();startFactory();]]></script>
+                                        <script><![CDATA[stop();
+
+startFactory();
+]]></script>
                                    </Actionscript>
                                    <elements/>
                               </DOMFrame>
@@ -560,6 +594,52 @@ function startClicked(event:MouseEvent):void
      <timelines>
           <DOMTimeline name="Game Over">
                <layers>
+                    <DOMLayer name="Button" color="#4FFFFF" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="next" name="next" symbolType="button">
+                                             <matrix>
+                                                  <Matrix tx="344" ty="46"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMStaticText width="514.95" height="30" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="11" ty="6.55"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>Game Over</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" aliasText="false" rotation="true" lineSpacing="3.15" size="30" bitmapSize="600" face="Skia-Regular" fillColor="#FFFFFF"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMStaticText>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Text" color="#FF4FFF" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMTLFText name="text" top="660" right="6419" bottom="7460">
+                                             <matrix>
+                                                  <Matrix tx="13" ty="12"/>
+                                             </matrix>
+                                             <tlfFonts>
+                                                  <TLFFont platformName="Skia" psName="Skia-Regular"/>
+                                             </tlfFonts>
+                                             <markup><tlfTextObject type="Paragraph" editPolicy="readOnly" columnCount="1" columnGap="20" verticalAlign="top" firstBaselineOffset="auto" paddingLeft="2" paddingTop="2" paddingRight="2" paddingBottom="2" background="false" backgroundColor="#ffffff" backgroundAlpha="1" border="false" borderColor="#000000" borderAlpha="1" borderWidth="1" paddingLock="false" multiline="true" antiAliasType="advanced" embedFonts="true"><TextFlow blockProgression="tb" columnCount="inherit" columnGap="inherit" columnWidth="inherit" lineBreak="inherit" locale="en_GB" paddingBottom="inherit" paddingLeft="inherit" paddingRight="inherit" paddingTop="inherit" verticalAlign="inherit" whiteSpaceCollapse="preserve" xmlns="http://ns.adobe.com/textLayout/2008"><p direction="ltr" paragraphEndIndent="0" paragraphSpaceAfter="0" paragraphSpaceBefore="0" paragraphStartIndent="0" textAlign="start" textAlignLast="justify" textIndent="0" textJustify="interWord"><span color="#ffffff" fontFamily="Skia" fontSize="16" fontStyle="normal" fontWeight="normal" kerning="auto" lineHeight="120%" lineThrough="false" locale="en_GB" textAlpha="1" textDecoration="none" textRotation="auto" trackingRight="0%"></span></p></TextFlow></tlfTextObject></markup>
+                                        </DOMTLFText>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
                     <DOMLayer name="Boss" color="#9933CC" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
@@ -569,39 +649,6 @@ function startClicked(event:MouseEvent):void
                                                   <Matrix tx="303" ty="88"/>
                                              </matrix>
                                         </DOMBitmapInstance>
-                                   </elements>
-                              </DOMFrame>
-                         </frames>
-                    </DOMLayer>
-                    <DOMLayer name="Button" color="#4FFFFF" autoNamed="false">
-                         <frames>
-                              <DOMFrame index="0" keyMode="9728">
-                                   <elements>
-                                        <DOMSymbolInstance libraryItemName="next" name="next" symbolType="button">
-                                             <matrix>
-                                                  <Matrix tx="320" ty="10"/>
-                                             </matrix>
-                                             <transformationPoint>
-                                                  <Point/>
-                                             </transformationPoint>
-                                        </DOMSymbolInstance>
-                                   </elements>
-                              </DOMFrame>
-                         </frames>
-                    </DOMLayer>
-                    <DOMLayer name="Text" color="#FF4FFF" current="true" isSelected="true" autoNamed="false">
-                         <frames>
-                              <DOMFrame index="0" keyMode="9728">
-                                   <elements>
-                                        <DOMTLFText name="text" right="5779" bottom="6760">
-                                             <matrix>
-                                                  <Matrix tx="23" ty="12"/>
-                                             </matrix>
-                                             <tlfFonts>
-                                                  <TLFFont platformName="Skia" psName="Skia-Regular"/>
-                                             </tlfFonts>
-                                             <markup><tlfTextObject type="Paragraph" editPolicy="readOnly" columnCount="1" columnGap="20" verticalAlign="top" firstBaselineOffset="auto" paddingLeft="2" paddingTop="2" paddingRight="2" paddingBottom="2" background="false" backgroundColor="#ffffff" backgroundAlpha="1" border="false" borderColor="#000000" borderAlpha="1" borderWidth="1" paddingLock="false" multiline="true" antiAliasType="advanced" embedFonts="true"><TextFlow blockProgression="tb" columnCount="inherit" columnGap="inherit" columnWidth="inherit" lineBreak="inherit" locale="en_GB" paddingBottom="inherit" paddingLeft="inherit" paddingRight="inherit" paddingTop="inherit" verticalAlign="inherit" whiteSpaceCollapse="preserve" xmlns="http://ns.adobe.com/textLayout/2008"><p direction="ltr" paragraphEndIndent="0" paragraphSpaceAfter="0" paragraphSpaceBefore="0" paragraphStartIndent="0" textAlign="start" textAlignLast="justify" textIndent="0" textJustify="interWord"><span color="#ffffff" fontFamily="Skia" fontSize="16" fontStyle="normal" fontWeight="normal" kerning="auto" lineHeight="120%" lineThrough="false" locale="en_GB" textAlpha="1" textDecoration="none" textRotation="auto" trackingRight="0%">You have produced 0 products and earned 0 score.</span></p><p direction="ltr" paragraphEndIndent="0" paragraphSpaceAfter="0" paragraphSpaceBefore="0" paragraphStartIndent="0" textAlign="start" textAlignLast="justify" textIndent="0" textJustify="interWord"><span color="#ffffff" fontFamily="Skia" fontSize="16" fontStyle="normal" fontWeight="normal" kerning="auto" lineHeight="120%" lineThrough="false" locale="en_GB" textAlpha="1" textDecoration="none" textRotation="auto" trackingRight="0%"></span></p><p direction="ltr" paragraphEndIndent="0" paragraphSpaceAfter="0" paragraphSpaceBefore="0" paragraphStartIndent="0" textAlign="start" textAlignLast="justify" textIndent="0" textJustify="interWord"><span color="#ffffff" fontFamily="Skia" fontSize="16" fontStyle="normal" fontWeight="normal" kerning="auto" lineHeight="120%" lineThrough="false" locale="en_GB" textAlpha="1" textDecoration="none" textRotation="auto" trackingRight="0%"></span></p></TextFlow></tlfTextObject></markup>
-                                        </DOMTLFText>
                                    </elements>
                               </DOMFrame>
                          </frames>
@@ -824,11 +871,52 @@ function startClicked(event:MouseEvent):void
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Actions" color="#9933CC" autoNamed="false">
+                    <DOMLayer name="Actions" color="#9933CC" current="true" isSelected="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[import flash.events.MouseEvent;stop();text.text = 'You earned ' + getScore() + ' score. For a couple of days you have tried out the life of a factory worker in China.\n\nClick arrow for more information.';var txt:Array =  [		'Harsh treatment from managers is common at the Foxconn factory.\nWorkers are reminded they should obey all instructions by superiors without questioning.\nSometimes management sets traps to test the workers.\nFor example management can take away a component of a product. If the worker concerned cannot discover the flaw, he/she will be punished.\nPublic humiliation is a common punishment.\n\nClick arrow to try again.',	'In the Wintek factory workers used the poisonous chemical n-hexane to clean touch screens.\nWorkers got really sick and a number of them were taken into hospital on October the 26th 2010.\nEarlier alcohol was used but it was replaced by n-hexane as it evaporates faster and hence can increase the production rate.\n\nClick arrow for more information.',	'In the Foxconn factory monthly overtime working hours amounts to 120 hours during the peak production time.\nThe local labour law says the maximum is 36 overtime working hours per month.\nThe production target is usually 5000 pieces per day.\nAlthough Foxconn claims workers have a 10-minute break every 2 hours, a worker interviewed says there are no breaks in her department at all.\n\nClick arrow for more information.'];next.addEventListener(MouseEvent.CLICK, function (event:MouseEvent) {	if (txt.length > 0) {		text.text = txt.pop();	} else {		gotoAndPlay('start', 'Factory');	}});]]></script>
+                                        <script><![CDATA[import flash.events.MouseEvent;
+import flash.text.TextFormat;
+
+stop();
+
+var startIndex:int;
+var endIndex:int;
+
+var formatSub:TextFormat = new TextFormat('Font 2');
+formatSub.size = 12;
+formatSub.bold = true;
+
+text.text = 'You earned ' + getScore() + ' ';
+text.text += 'score. For a couple of days you have tried out the life of a factory worker in China.';
+
+startIndex = text.length;
+text.text += '\n\nClick arrow for more information.';
+endIndex = text.length;
+text.setTextFormat(formatSub, startIndex, endIndex);
+
+var txt:Array =  [	
+	'Harsh treatment from managers is common at the Foxconn factory.\nWorkers are reminded they should obey all instructions by superiors without questioning.\nSometimes management sets traps to test the workers.\nFor example management can take away a component of a product. If the worker concerned cannot discover the flaw, he/she will be punished.\nPublic humiliation is a common punishment.',
+	'In the Wintek factory workers used the poisonous chemical n-hexane to clean touch screens.\nWorkers got really sick and a number of them were taken into hospital on October the 26th 2010.\nEarlier alcohol was used but it was replaced by n-hexane as it evaporates faster and hence can increase the production rate.',
+	'In the Foxconn factory monthly overtime working hours amounts to 120 hours during the peak production time.\nThe local labour law says the maximum is 36 overtime working hours per month.\nThe production target is usually 5000 pieces per day.\nAlthough Foxconn claims workers have a 10-minute break every 2 hours, a worker interviewed says there are no breaks in her department at all.'
+];
+
+next.addEventListener(MouseEvent.CLICK, function (event:MouseEvent) {
+	if (txt.length > 0) {
+		text.text = txt.pop();
+		startIndex = text.length;
+		if (txt.length == 0) {
+			text.text += '\n\nClick arrow to try again.';
+		} else {
+			text.text += '\n\nClick arrow for more information.';
+		}
+		endIndex = text.length;
+		text.setTextFormat(formatSub, startIndex, endIndex);
+	} else {
+		gotoAndPlay('start', 'Factory');
+	}
+});
+]]></script>
                                    </Actionscript>
                                    <elements/>
                               </DOMFrame>
@@ -902,7 +990,7 @@ function startClicked(event:MouseEvent):void
                                         </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
-                              <DOMFrame index="74" name="frame4" labelType="name" keyMode="9728">
+                              <DOMFrame index="74" keyMode="9728">
                                    <elements>
                                         <DOMSymbolInstance libraryItemName="next" name="startGame" symbolType="button">
                                              <matrix>
@@ -996,7 +1084,7 @@ function startClicked(event:MouseEvent):void
                          <frames>
                               <DOMFrame index="0" duration="24" keyMode="9728">
                                    <Actionscript>
-                                        <script><![CDATA[var snd:GameSound = new GameSound();snd.play(0, -1);frame1.addEventListener(MouseEvent.CLICK, function(event:MouseEvent):void{	gotoAndPlay('frame2');});]]></script>
+                                        <script><![CDATA[var snd:GameSound = new GameSound();snd.play(0, int.MAX_VALUE);frame1.addEventListener(MouseEvent.CLICK, function(event:MouseEvent):void{	gotoAndPlay('frame2');});]]></script>
                                    </Actionscript>
                                    <elements>
                                         <DOMBitmapInstance name="" referenceID="" selected="true" libraryItemName="factory_workers_bg.png"/>
@@ -1038,7 +1126,7 @@ frame2.addEventListener(MouseEvent.CLICK, function(event:MouseEvent):void
                                    <Actionscript>
                                         <script><![CDATA[frame4.addEventListener(MouseEvent.CLICK, function(event:MouseEvent):void
 {
-	gotoAndPlay('frame4');
+	gotoAndPlay('start', 'Factory');
 });]]></script>
                                    </Actionscript>
                                    <elements>
@@ -1370,25 +1458,25 @@ startGame.addEventListener(MouseEvent.CLICK, function(event:MouseEvent):void
      </persistentData>
      <PrinterSettings platform="macintosh"/>
      <publishHistory>
-          <PublishItem publishSize="737833" publishTime="1304425439"/>
-          <PublishItem publishSize="737852" publishTime="1304425335"/>
-          <PublishItem publishSize="737840" publishTime="1304425249"/>
-          <PublishItem publishSize="737790" publishTime="1304425037"/>
-          <PublishItem publishSize="737813" publishTime="1304424879"/>
-          <PublishItem publishSize="737159" publishTime="1304424721"/>
-          <PublishItem publishSize="854429" publishTime="1304424549" publishDebug="true"/>
-          <PublishItem publishSize="737163" publishTime="1304424448"/>
-          <PublishItem publishSize="737192" publishTime="1304424192"/>
-          <PublishItem publishSize="737103" publishTime="1304423972"/>
-          <PublishItem publishSize="737071" publishTime="1304423936"/>
-          <PublishItem publishSize="717988" publishTime="1304421937"/>
-          <PublishItem publishSize="717965" publishTime="1304421849"/>
-          <PublishItem publishSize="717903" publishTime="1304421812"/>
-          <PublishItem publishSize="717916" publishTime="1304421773"/>
-          <PublishItem publishSize="717973" publishTime="1304421749"/>
-          <PublishItem publishSize="717666" publishTime="1304421261"/>
-          <PublishItem publishSize="717665" publishTime="1304421200"/>
-          <PublishItem publishSize="717918" publishTime="1304421162"/>
-          <PublishItem publishSize="717941" publishTime="1304421141"/>
+          <PublishItem publishSize="738366" publishTime="1304662464"/>
+          <PublishItem publishSize="738000" publishTime="1304508642"/>
+          <PublishItem publishSize="738051" publishTime="1304508569"/>
+          <PublishItem publishSize="738005" publishTime="1304508524"/>
+          <PublishItem publishSize="738056" publishTime="1304508482"/>
+          <PublishItem publishSize="738052" publishTime="1304508379"/>
+          <PublishItem publishSize="738006" publishTime="1304508337"/>
+          <PublishItem publishSize="737990" publishTime="1304508103"/>
+          <PublishItem publishSize="738009" publishTime="1304508057"/>
+          <PublishItem publishSize="737989" publishTime="1304508017"/>
+          <PublishItem publishSize="737993" publishTime="1304507986"/>
+          <PublishItem publishSize="737975" publishTime="1304507896"/>
+          <PublishItem publishSize="737978" publishTime="1304507777"/>
+          <PublishItem publishSize="738036" publishTime="1304507505"/>
+          <PublishItem publishSize="550186" publishTime="1304507480"/>
+          <PublishItem publishSize="550186" publishTime="1304507446"/>
+          <PublishItem publishSize="738002" publishTime="1304449485"/>
+          <PublishItem publishSize="738002" publishTime="1304449155"/>
+          <PublishItem publishSize="737996" publishTime="1304449124"/>
+          <PublishItem publishSize="738088" publishTime="1304449074"/>
      </publishHistory>
 </DOMDocument>

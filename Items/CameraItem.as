@@ -1,1 +1,1 @@
-﻿package Items{	import Parts.*;	public class CameraItem extends Item {		public function CameraItem() {			super('camera', [			new Down(),			new Down(),			new Up(),			new Up(),			new Left(),			new Right()]);		}	}}
+﻿package Items{	import Parts.*;	public class CameraItem extends Item {		public function CameraItem() {			super('camera', [				new Left(),				new Left(),				new Right(),				new Right(),				new Up(),				new Down()			]);		}	}}
